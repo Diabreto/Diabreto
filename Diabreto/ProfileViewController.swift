@@ -7,10 +7,7 @@
 //
 
 import UIKit
-
-enum PickerType {
-    case glycemiaUnit
-}
+import Alamofire
 
 class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
@@ -20,17 +17,45 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     var picker: UIPickerView!
     var pickerToolBar: UIToolbar!
     
+    @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var glycemiaUnitField: UITextField!
+    @IBOutlet weak var carbohydratesUnitField: UITextField!
+    @IBOutlet weak var targetGlycemiaField: UITextField!
+    @IBOutlet weak var insulinProportionField: UITextField!
+    @IBOutlet weak var correctionFactorField: UITextField!
+    @IBOutlet weak var hyperglycemiaField: UITextField!
+    @IBOutlet weak var hypoglycemiaField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.picker = buildUIPickerView()
         self.pickerToolBar = buildPickerToolBar()
+        
+        print(AppDelegate.database.currentUser)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    @IBAction func saveButtonClick(_ sender: UIBarButtonItem) {
+        let attrs: Parameters = ["email": emailField.text!,
+                                 "glycemiaUnit": glycemiaUnitField.text!,
+                                 "carbohydratesUnit": carbohydratesUnitField.text!,
+                                 "targetGlycemia": targetGlycemiaField.text!,
+                                 "insulinProportion": insulinProportionField.text!,
+                                 "correctionFactor": correctionFactorField.text!,
+                                 "hyperglycemia": hyperglycemiaField.text!,
+                                 "hypoglycemia": hypoglycemiaField.text!]
+        
+        AppDelegate.database.currentUser.update(attrs: attrs, completion: { (response: Alamofire.DataResponse<Any>) -> Void in
+            if response.result.isSuccess {
+                print(response.result.value!)
+            } else {
+                print("error")
+            }
+        })
     }
     
     @IBAction func glycemiaUnitFieldEditingDidBegin(_ sender: UITextField) {

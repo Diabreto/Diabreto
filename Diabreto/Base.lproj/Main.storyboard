@@ -53,7 +53,11 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
                                     <navigationItem title="Profile" id="XXH-KA-TtK">
-                                        <barButtonItem key="rightBarButtonItem" title="Save" id="ZUL-nV-nO2"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Save" id="ZUL-nV-nO2">
+                                            <connections>
+                                                <action selector="saveButtonClick:" destination="shE-rX-q8t" id="unA-z0-txf"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -239,7 +243,14 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1115"/>
                     <connections>
+                        <outlet property="carbohydratesUnitField" destination="i3c-ws-RNv" id="c0j-9o-snq"/>
+                        <outlet property="correctionFactorField" destination="Auc-Rx-uzq" id="8Bw-0w-4uX"/>
+                        <outlet property="emailField" destination="3Ev-pt-IWe" id="i0x-RN-A24"/>
                         <outlet property="glycemiaUnitField" destination="euM-6O-dkw" id="jgV-3M-8kl"/>
+                        <outlet property="hyperglycemiaField" destination="n12-x1-cAN" id="eE7-eC-zlb"/>
+                        <outlet property="hypoglycemiaField" destination="UZW-OF-OWA" id="GAm-gC-Cos"/>
+                        <outlet property="insulinProportionField" destination="xDs-nx-ZMJ" id="aPZ-bn-bgz"/>
+                        <outlet property="targetGlycemiaField" destination="USQ-LW-0N6" id="CoT-wA-cWk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RYk-sZ-h2v" userLabel="First Responder" sceneMemberID="firstResponder"/>
