@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		96777BB21E575F01005544B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96777BB11E575F01005544B4 /* AppDelegate.swift */; };
 		96777BB41E575F01005544B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96777BB31E575F01005544B4 /* MainViewController.swift */; };
-		96777BB71E575F01005544B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96777BB51E575F01005544B4 /* Main.storyboard */; };
 		96777BB91E575F01005544B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96777BB81E575F01005544B4 /* Assets.xcassets */; };
 		96777BBC1E575F01005544B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96777BBA1E575F01005544B4 /* LaunchScreen.storyboard */; };
 		B2F003E572F8FCDE0A23F51D /* Pods_Diabreto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9A1AC3BEC003E2E029E50B /* Pods_Diabreto.framework */; };
@@ -17,6 +16,9 @@
 		D26588191E577B6E00A20F04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26588181E577B6E00A20F04 /* HomeViewController.swift */; };
 		D2B4DA6C1E57D4DA005378A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4DA6B1E57D4DA005378A9 /* User.swift */; };
 		D2B4DA6E1E57D6CF005378A9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4DA6D1E57D6CF005378A9 /* Database.swift */; };
+		F4D1B6E81E58510C00B129CF /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D1B6E71E58510C00B129CF /* HomeTableViewCell.swift */; };
+		F4D1B6EA1E58622C00B129CF /* meal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D1B6E91E58622C00B129CF /* meal.jpg */; };
+		F4D1B6ED1E5872AF00B129CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D1B6EB1E5872AF00B129CF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +26,6 @@
 		96777BAE1E575F01005544B4 /* Diabreto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diabreto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96777BB11E575F01005544B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96777BB31E575F01005544B4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		96777BB61E575F01005544B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96777BB81E575F01005544B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96777BBB1E575F01005544B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96777BBD1E575F01005544B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +35,9 @@
 		D26588181E577B6E00A20F04 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D2B4DA6B1E57D4DA005378A9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D2B4DA6D1E57D6CF005378A9 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		F4D1B6E71E58510C00B129CF /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		F4D1B6E91E58622C00B129CF /* meal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meal.jpg; path = ../../../../Documents/meal.jpg; sourceTree = "<group>"; };
+		F4D1B6EC1E5872AF00B129CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +84,14 @@
 				D2B4DA6A1E57D4C8005378A9 /* Models */,
 				96777BB11E575F01005544B4 /* AppDelegate.swift */,
 				96777BB31E575F01005544B4 /* MainViewController.swift */,
-				96777BB51E575F01005544B4 /* Main.storyboard */,
+				F4D1B6E71E58510C00B129CF /* HomeTableViewCell.swift */,
 				96777BB81E575F01005544B4 /* Assets.xcassets */,
 				96777BBA1E575F01005544B4 /* LaunchScreen.storyboard */,
 				96777BBD1E575F01005544B4 /* Info.plist */,
+				F4D1B6EB1E5872AF00B129CF /* Main.storyboard */,
 				D26588161E577B3B00A20F04 /* ProfileViewController.swift */,
 				D26588181E577B6E00A20F04 /* HomeViewController.swift */,
+				F4D1B6E91E58622C00B129CF /* meal.jpg */,
 				D2B4DA6D1E57D6CF005378A9 /* Database.swift */,
 			);
 			path = Diabreto;
@@ -143,6 +149,7 @@
 				TargetAttributes = {
 					96777BAD1E575F00005544B4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5J63B9B52L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -172,7 +179,8 @@
 			files = (
 				96777BBC1E575F01005544B4 /* LaunchScreen.storyboard in Resources */,
 				96777BB91E575F01005544B4 /* Assets.xcassets in Resources */,
-				96777BB71E575F01005544B4 /* Main.storyboard in Resources */,
+				F4D1B6EA1E58622C00B129CF /* meal.jpg in Resources */,
+				F4D1B6ED1E5872AF00B129CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +241,7 @@
 			files = (
 				D2B4DA6E1E57D6CF005378A9 /* Database.swift in Sources */,
 				D26588171E577B3B00A20F04 /* ProfileViewController.swift in Sources */,
+				F4D1B6E81E58510C00B129CF /* HomeTableViewCell.swift in Sources */,
 				96777BB41E575F01005544B4 /* MainViewController.swift in Sources */,
 				96777BB21E575F01005544B4 /* AppDelegate.swift in Sources */,
 				D2B4DA6C1E57D4DA005378A9 /* User.swift in Sources */,
@@ -243,20 +252,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		96777BB51E575F01005544B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96777BB61E575F01005544B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		96777BBA1E575F01005544B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				96777BBB1E575F01005544B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F4D1B6EB1E5872AF00B129CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D1B6EC1E5872AF00B129CF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -360,6 +369,7 @@
 			baseConfigurationReference = A97845119DD6AFED5C854A28 /* Pods-Diabreto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5J63B9B52L;
 				INFOPLIST_FILE = Diabreto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = diabreto.Diabreto;
@@ -373,6 +383,7 @@
 			baseConfigurationReference = CE60312E92EC127EAF8A77C0 /* Pods-Diabreto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5J63B9B52L;
 				INFOPLIST_FILE = Diabreto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = diabreto.Diabreto;
