@@ -16,20 +16,15 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var insulinMeal = [0.5,2.5,2.3,1.8,20.3,25.7,0,0,0]
     var insulinCorrection = [0.5,0,3.0,0,0,0,0,0,0]
 
-    
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         return (glucose.count)
     }
     
-    
-    
-    
- 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HomeTableViewCell
         
-        cell.mealImage.image = UIImage(named: ("meal.jpg"))
+        cell.mealImage.image = UIImage(named: "meal")
         
         if glucose[indexPath.row] == 0 {
             cell.glucoseDisplay.text = "-"
@@ -58,7 +53,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         else{
             cell.CorrectionDisplay.text = String(insulinCorrection[indexPath.row])
         }
-        
         
         return (cell)
     }

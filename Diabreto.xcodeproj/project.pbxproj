@@ -17,7 +17,6 @@
 		D2B4DA6C1E57D4DA005378A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4DA6B1E57D4DA005378A9 /* User.swift */; };
 		D2B4DA6E1E57D6CF005378A9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4DA6D1E57D6CF005378A9 /* Database.swift */; };
 		F4D1B6E81E58510C00B129CF /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D1B6E71E58510C00B129CF /* HomeTableViewCell.swift */; };
-		F4D1B6EA1E58622C00B129CF /* meal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4D1B6E91E58622C00B129CF /* meal.jpg */; };
 		F4D1B6ED1E5872AF00B129CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D1B6EB1E5872AF00B129CF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		D2B4DA6B1E57D4DA005378A9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D2B4DA6D1E57D6CF005378A9 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		F4D1B6E71E58510C00B129CF /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
-		F4D1B6E91E58622C00B129CF /* meal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meal.jpg; path = ../../../../Documents/meal.jpg; sourceTree = "<group>"; };
 		F4D1B6EC1E5872AF00B129CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +89,6 @@
 				F4D1B6EB1E5872AF00B129CF /* Main.storyboard */,
 				D26588161E577B3B00A20F04 /* ProfileViewController.swift */,
 				D26588181E577B6E00A20F04 /* HomeViewController.swift */,
-				F4D1B6E91E58622C00B129CF /* meal.jpg */,
 				D2B4DA6D1E57D6CF005378A9 /* Database.swift */,
 			);
 			path = Diabreto;
@@ -179,7 +176,6 @@
 			files = (
 				96777BBC1E575F01005544B4 /* LaunchScreen.storyboard in Resources */,
 				96777BB91E575F01005544B4 /* Assets.xcassets in Resources */,
-				F4D1B6EA1E58622C00B129CF /* meal.jpg in Resources */,
 				F4D1B6ED1E5872AF00B129CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
