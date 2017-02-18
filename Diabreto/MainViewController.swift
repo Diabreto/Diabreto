@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class MainViewController: UIViewController {
 
@@ -20,4 +22,14 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func loginButtonClick(_ sender: Any) {
+        User.login(completion: { (response: DataResponse<Any>) -> Void in
+            if response.result.isSuccess {
+                let attrs = JSON(response.result.value!)["data"]["user"]
+                AppDelegate.database.currentUser.localUpdate(attrs: attrs)
+            } else {
+                print("Login error")
+            }
+        })
+    }
 }

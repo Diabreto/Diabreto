@@ -10,13 +10,6 @@ class Database {
     var currentUser: User
     
     init() {
-        self.currentUser = User(email: "manel@hotmail.com",
-                                glycemiaUnit: "mg/dl",
-                                carbohydratesUnit: "grams",
-                                targetGlycemia: 120,
-                                insulinProportion: 1.2,
-                                correctionFactor: 1,
-                                hyperGlycemiaThreshold: 180,
-                                hypoGlycemiaThreshold: 60)
+        self.currentUser = User()
     }
 }

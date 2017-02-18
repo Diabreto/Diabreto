@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
 
 class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
@@ -17,14 +18,13 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     var picker: UIPickerView!
     var pickerToolBar: UIToolbar!
     
-    @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var glycemiaUnitField: UITextField!
-    @IBOutlet weak var carbohydratesUnitField: UITextField!
+    @IBOutlet weak var carbohydratesToUnitField: UITextField!
     @IBOutlet weak var targetGlycemiaField: UITextField!
-    @IBOutlet weak var insulinProportionField: UITextField!
+    @IBOutlet weak var insulinToUnitField: UITextField!
     @IBOutlet weak var correctionFactorField: UITextField!
-    @IBOutlet weak var hyperglycemiaField: UITextField!
-    @IBOutlet weak var hypoglycemiaField: UITextField!
+    @IBOutlet weak var hyperglycemiaThresholdField: UITextField!
+    @IBOutlet weak var hypoglycemiaThresholdField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +32,7 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         self.picker = buildUIPickerView()
         self.pickerToolBar = buildPickerToolBar()
         
-        print(AppDelegate.database.currentUser)
+        loadValuesToUI()
     }
     
     override func didReceiveMemoryWarning() {
@@ -40,20 +40,21 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     }
     
     @IBAction func saveButtonClick(_ sender: UIBarButtonItem) {
-        let attrs: Parameters = ["email": emailField.text!,
-                                 "glycemiaUnit": glycemiaUnitField.text!,
-                                 "carbohydratesUnit": carbohydratesUnitField.text!,
-                                 "targetGlycemia": targetGlycemiaField.text!,
-                                 "insulinProportion": insulinProportionField.text!,
-                                 "correctionFactor": correctionFactorField.text!,
-                                 "hyperglycemia": hyperglycemiaField.text!,
-                                 "hypoglycemia": hypoglycemiaField.text!]
+        let params: Parameters = ["glycemia_unit": glycemiaUnitField.text!,
+                                  "carbohydrates_to_unit": carbohydratesToUnitField.text!,
+                                  "target_glycemia":targetGlycemiaField.text!,
+                                  "insulin_to_unit": insulinToUnitField.text!,
+                                  "correction_factor": correctionFactorField.text!,
+                                  "hyperglycemia_threshold": hyperglycemiaThresholdField.text!,
+                                  "hypoglycemia_threshold": hypoglycemiaThresholdField.text!]
         
-        AppDelegate.database.currentUser.update(attrs: attrs, completion: { (response: Alamofire.DataResponse<Any>) -> Void in
+        AppDelegate.database.currentUser.update(params: params, completion: { (response: Alamofire.DataResponse<Any>) -> Void in
             if response.result.isSuccess {
-                print(response.result.value!)
+                let attrs = JSON(response.result.value!)["data"]["user"]
+                print(attrs)
+                AppDelegate.database.currentUser.localUpdate(attrs: attrs)
             } else {
-                print("error")
+                print("Error updating user")
             }
         })
     }
@@ -61,13 +62,6 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     @IBAction func glycemiaUnitFieldEditingDidBegin(_ sender: UITextField) {
         self.currentSender = sender
         self.pickerData = ["mg/dl", "mmol/L"]
-        sender.inputView = self.picker
-        sender.inputAccessoryView = self.pickerToolBar
-    }
-    
-    @IBAction func carbohydratesUnitFieldEditingDidBegin(_ sender: UITextField) {
-        self.currentSender = sender
-        self.pickerData = ["Equivalence", "Grams"]
         sender.inputView = self.picker
         sender.inputAccessoryView = self.pickerToolBar
     }
@@ -100,6 +94,18 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         
         toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
         return toolBar
+    }
+    
+    private func loadValuesToUI() {
+        let currentUser = AppDelegate.database.currentUser
+        
+        self.glycemiaUnitField.text = currentUser.glycemiaUnit
+        self.carbohydratesToUnitField.text = String(currentUser.carbohydratesToUnit)
+        self.targetGlycemiaField.text = String(currentUser.targetGlycemia)
+        self.insulinToUnitField.text = String(currentUser.insulinToUnit)
+        self.correctionFactorField.text = String(currentUser.correctionFactor)
+        self.hyperglycemiaThresholdField.text = String(currentUser.hyperGlycemiaThreshold)
+        self.hypoglycemiaThresholdField.text = String(currentUser.hypoGlycemiaThreshold)
     }
     
     // Picker
