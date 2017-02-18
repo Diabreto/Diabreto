@@ -7,6 +7,7 @@
 //
 
 import Alamofire
+import Alamofire_Synchronous
 import SwiftyJSON
 
 class User {
@@ -34,23 +35,21 @@ class User {
         self.hypoGlycemiaThreshold = nil
     }
     
-    static func login(completion: @escaping (_ response: DataResponse<Any>) -> Void) {
+    static func login() -> DataResponse<Any> {
         // TODO make login parameters dinamic from UI
         let params: Parameters = [
             "user": [
-                "email": "manel@hotmail.com",
-                "password": "manel123"
+                "email": "joao@hotmail.com",
+                "password": "123456"
             ]
         ]
         
-        Alamofire
-        .request("http://www.pedrobelem.com/api/users/sign_in",
+        return Alamofire
+            .request("http://www.pedrobelem.com/api/users/sign_in",
                  method: .post,
                  parameters: params,
                  encoding: JSONEncoding.default)
-        .responseJSON { response in
-            completion(response)
-        }
+            .responseJSON()
     }
     
     func update(params: Parameters, completion: @escaping (_ response: DataResponse<Any>) -> Void) -> Void {

@@ -8,8 +8,10 @@
 
 class Database {
     var currentUser: User
+    var records: [Record]
     
     init() {
         self.currentUser = User()
+        self.records = []
     }
 }

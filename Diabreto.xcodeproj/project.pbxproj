@@ -14,6 +14,7 @@
 		B2F003E572F8FCDE0A23F51D /* Pods_Diabreto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9A1AC3BEC003E2E029E50B /* Pods_Diabreto.framework */; };
 		D26588171E577B3B00A20F04 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26588161E577B3B00A20F04 /* ProfileViewController.swift */; };
 		D26588191E577B6E00A20F04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26588181E577B6E00A20F04 /* HomeViewController.swift */; };
+		D2A350DB1E58AE1600BF0EA5 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A350DA1E58AE1600BF0EA5 /* Record.swift */; };
 		D2B4DA6C1E57D4DA005378A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4DA6B1E57D4DA005378A9 /* User.swift */; };
 		D2B4DA6E1E57D6CF005378A9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B4DA6D1E57D6CF005378A9 /* Database.swift */; };
 		F4D1B6E81E58510C00B129CF /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D1B6E71E58510C00B129CF /* HomeTableViewCell.swift */; };
@@ -32,6 +33,7 @@
 		CE60312E92EC127EAF8A77C0 /* Pods-Diabreto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabreto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diabreto/Pods-Diabreto.release.xcconfig"; sourceTree = "<group>"; };
 		D26588161E577B3B00A20F04 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D26588181E577B6E00A20F04 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D2A350DA1E58AE1600BF0EA5 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		D2B4DA6B1E57D4DA005378A9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D2B4DA6D1E57D6CF005378A9 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		F4D1B6E71E58510C00B129CF /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D2B4DA6B1E57D4DA005378A9 /* User.swift */,
+				D2A350DA1E58AE1600BF0EA5 /* Record.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				96777BB41E575F01005544B4 /* MainViewController.swift in Sources */,
 				96777BB21E575F01005544B4 /* AppDelegate.swift in Sources */,
 				D2B4DA6C1E57D4DA005378A9 /* User.swift in Sources */,
+				D2A350DB1E58AE1600BF0EA5 /* Record.swift in Sources */,
 				D26588191E577B6E00A20F04 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

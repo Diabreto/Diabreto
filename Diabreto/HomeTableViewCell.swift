@@ -10,11 +10,11 @@ import UIKit
 
 class HomeTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var glucoseDisplay: UILabel!
-    @IBOutlet weak var carbsDisplay: UILabel!
-    @IBOutlet weak var InsMealDisplay: UILabel!
-    @IBOutlet weak var CorrectionDisplay: UILabel!
-    @IBOutlet weak var mealImage: UIImageView!
+    @IBOutlet weak var recordImageView: UIImageView!
+    @IBOutlet weak var glycemiaLabel: UILabel!
+    @IBOutlet weak var carbohydratesLabel: UILabel!
+    @IBOutlet weak var mealInsulinLabel: UILabel!
+    @IBOutlet weak var correctionInsulinLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
