@@ -5,4 +5,5 @@ use_frameworks!
 target 'Diabreto' do
   pod 'Alamofire', '~> 4.3'
   pod 'SwiftyJSON'
+  pod 'ScrollableGraphView'
 end
