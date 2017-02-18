@@ -15,12 +15,23 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var photoMeals = ["meal",]
     var insulinMeal = [0.5,2.5,2.3,1.8,20.3,25.7,0,0,0]
     var insulinCorrection = [0.5,0,3.0,0,0,0,0,0,0]
-
-    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return (glucose.count)
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
-    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    // Table View
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return glucose.count
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HomeTableViewCell
         
@@ -55,15 +66,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
         
         return (cell)
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 }

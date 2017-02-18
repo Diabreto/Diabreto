@@ -49,19 +49,19 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
                                   "hypoglycemia_threshold": hypoglycemiaThresholdField.text!]
         
         AppDelegate.database.currentUser.update(params: params, completion: { (response: Alamofire.DataResponse<Any>) -> Void in
-            if response.result.isSuccess {
-                let attrs = JSON(response.result.value!)["data"]["user"]
-                print(attrs)
-                AppDelegate.database.currentUser.localUpdate(attrs: attrs)
-            } else {
+            let jsonResponse = JSON(response.result.value!)
+            if (response.result.isFailure || !jsonResponse["errors"].isEmpty) {
                 print("Error updating user")
+                return
             }
+            
+            AppDelegate.database.currentUser.localUpdate(attrs: jsonResponse["data"]["user"])
         })
     }
     
     @IBAction func glycemiaUnitFieldEditingDidBegin(_ sender: UITextField) {
         self.currentSender = sender
-        self.pickerData = ["mg/dl", "mmol/L"]
+        self.pickerData = ["mg/dL", "mmol/L"]
         sender.inputView = self.picker
         sender.inputAccessoryView = self.pickerToolBar
     }
