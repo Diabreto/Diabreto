@@ -105,11 +105,11 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
     }
     
     private func loadFoods() {
-        let path = Bundle.main.path(forResource: "carbstable", ofType: "json")
+        let path = Bundle.main.path(forResource: "CarbsTable", ofType: "json")
         let content = FileManager.default.contents(atPath: path!)
         let json = JSON(data: content!)
         
-        for (_, value):(String, JSON) in json {
+        for (_, value): (String, JSON) in json {
             foods.append(
                 Food(
                     name: format(value: value["name"].stringValue),
