@@ -1,0 +1,4438 @@
+[
+  {
+    "name": "Donut",
+    "carbs": 43
+  },
+  {
+    "name": "Donut\" recheado com doce de fruta",
+    "carbs": 47
+  },
+  {
+    "name": "Shortening\" para pastelaria",
+    "carbs": 0
+  },
+  {
+    "name": "Shortening\" para restaurante",
+    "carbs": 0
+  },
+  {
+    "name": "Abacate",
+    "carbs": 2.3
+  },
+  {
+    "name": "Abóbora cristalizada",
+    "carbs": 72.4
+  },
+  {
+    "name": "Abóbora crua",
+    "carbs": 1.7
+  },
+  {
+    "name": "Abrótea cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Abrótea crua",
+    "carbs": 0
+  },
+  {
+    "name": "Açorda",
+    "carbs": 6.5
+  },
+  {
+    "name": "Açorda à alentejana",
+    "carbs": 12.3
+  },
+  {
+    "name": "Açorda de bacalhau",
+    "carbs": 5.7
+  },
+  {
+    "name": "Açorda de marisco",
+    "carbs": 5.4
+  },
+  {
+    "name": "Açorda de ovo",
+    "carbs": 14
+  },
+  {
+    "name": "Açúcar amarelo",
+    "carbs": 97.5
+  },
+  {
+    "name": "Açúcar branco",
+    "carbs": 99.3
+  },
+  {
+    "name": "Agrião cru",
+    "carbs": 0.4
+  },
+  {
+    "name": "Água mineral natural gaseificada, \"Pizões-Moura",
+    "carbs": 0
+  },
+  {
+    "name": "Água mineral natural gaseificada, \"Vimeiro",
+    "carbs": 0
+  },
+  {
+    "name": "Água mineral natural gasocarbónica, \"Pedras Salgadas",
+    "carbs": 0
+  },
+  {
+    "name": "Água mineral natural, \"Luso",
+    "carbs": 0
+  },
+  {
+    "name": "Água, rede pública de abastecimento (Lisboa)",
+    "carbs": 0
+  },
+  {
+    "name": "Aguardente",
+    "carbs": 0
+  },
+  {
+    "name": "Aipo cru",
+    "carbs": 1.5
+  },
+  {
+    "name": "Alcachofra cozida",
+    "carbs": 5.3
+  },
+  {
+    "name": "Alcachofra crua",
+    "carbs": 6.8
+  },
+  {
+    "name": "Alface crua",
+    "carbs": 0.8
+  },
+  {
+    "name": "Alheira cozida sem adição de sal",
+    "carbs": 26.8
+  },
+  {
+    "name": "Alheira crua",
+    "carbs": 27.4
+  },
+  {
+    "name": "Alheira grelhada sem adição de sal",
+    "carbs": 28.5
+  },
+  {
+    "name": "Alho cru",
+    "carbs": 11.3
+  },
+  {
+    "name": "Alho em pó",
+    "carbs": 52.3
+  },
+  {
+    "name": "Alho francês cru",
+    "carbs": 2.9
+  },
+  {
+    "name": "Almôndega cozinhada",
+    "carbs": 3.8
+  },
+  {
+    "name": "Almôndegas de carne de vaca",
+    "carbs": 6.4
+  },
+  {
+    "name": "Almôndegas saloias",
+    "carbs": 29.2
+  },
+  {
+    "name": "Amêijoa aberta ao natural sem sal",
+    "carbs": 5.2
+  },
+  {
+    "name": "Amêijoa crua",
+    "carbs": 2.6
+  },
+  {
+    "name": "Amêijoas",
+    "carbs": 3.2
+  },
+  {
+    "name": "Ameixa branca",
+    "carbs": 7.8
+  },
+  {
+    "name": "Ameixa encarnada",
+    "carbs": 7.4
+  },
+  {
+    "name": "Ameixa rainha Cláudia",
+    "carbs": 11.8
+  },
+  {
+    "name": "Ameixa seca",
+    "carbs": 37.8
+  },
+  {
+    "name": "Ameixa, conserva em calda de açúcar",
+    "carbs": 27.5
+  },
+  {
+    "name": "Amêndoa, miolo, com pele",
+    "carbs": 7.2
+  },
+  {
+    "name": "Amêndoa, miolo, torrada, sem pele",
+    "carbs": 7.1
+  },
+  {
+    "name": "Amendoim, miolo",
+    "carbs": 10.1
+  },
+  {
+    "name": "Amendoim, miolo, torrado com sal",
+    "carbs": 6.6
+  },
+  {
+    "name": "Amendoim, miolo, torrado sem sal",
+    "carbs": 9.5
+  },
+  {
+    "name": "Ananás",
+    "carbs": 9.5
+  },
+  {
+    "name": "Ananás, conserva em calda de açúcar",
+    "carbs": 23.2
+  },
+  {
+    "name": "Anona",
+    "carbs": 16.8
+  },
+  {
+    "name": "Arroz à valenciana",
+    "carbs": 7.9
+  },
+  {
+    "name": "Arroz carolino branqueado cru",
+    "carbs": 79.6
+  },
+  {
+    "name": "Arroz com refogado",
+    "carbs": 32.4
+  },
+  {
+    "name": "Arroz comum cru",
+    "carbs": 78.1
+  },
+  {
+    "name": "Arroz cozido simples",
+    "carbs": 28
+  },
+  {
+    "name": "Arroz de bacalhau",
+    "carbs": 15.3
+  },
+  {
+    "name": "Arroz de bacalhau cpm margarina",
+    "carbs": 12.2
+  },
+  {
+    "name": "Arroz de cabidela",
+    "carbs": 12.2
+  },
+  {
+    "name": "Arroz de cenoura",
+    "carbs": 41
+  },
+  {
+    "name": "Arroz de cenoura com azeite",
+    "carbs": 19.9
+  },
+  {
+    "name": "Arroz de ervilhas",
+    "carbs": 18
+  },
+  {
+    "name": "Arroz de feijão",
+    "carbs": 20.8
+  },
+  {
+    "name": "Arroz de frango",
+    "carbs": 25.2
+  },
+  {
+    "name": "Arroz de frango com feijão e chouriço",
+    "carbs": 8.8
+  },
+  {
+    "name": "Arroz de frango malandrinho à moda de Monção",
+    "carbs": 9.3
+  },
+  {
+    "name": "Arroz de gambas",
+    "carbs": 8.8
+  },
+  {
+    "name": "Arroz de lulas",
+    "carbs": 6.7
+  },
+  {
+    "name": "Arroz de manteiga",
+    "carbs": 44.4
+  },
+  {
+    "name": "Arroz de marisco",
+    "carbs": 8.2
+  },
+  {
+    "name": "Arroz de pato",
+    "carbs": 8.4
+  },
+  {
+    "name": "Arroz de peixe",
+    "carbs": 15.5
+  },
+  {
+    "name": "Arroz de peixe com ervilhas",
+    "carbs": 19.8
+  },
+  {
+    "name": "Arroz de polvo com azeite",
+    "carbs": 10.9
+  },
+  {
+    "name": "Arroz de polvo com tomate",
+    "carbs": 10
+  },
+  {
+    "name": "Arroz de polvo com tomate e vinho",
+    "carbs": 6.9
+  },
+  {
+    "name": "Arroz de tamboril",
+    "carbs": 7.5
+  },
+  {
+    "name": "Arroz de tamboril malandrinho",
+    "carbs": 10
+  },
+  {
+    "name": "Arroz de tomate com azeite",
+    "carbs": 20.1
+  },
+  {
+    "name": "Arroz de tomate com margarina",
+    "carbs": 20.2
+  },
+  {
+    "name": "Arroz de tomate malandrinho",
+    "carbs": 16.8
+  },
+  {
+    "name": "Arroz doce",
+    "carbs": 45.2
+  },
+  {
+    "name": "Arroz integral cru",
+    "carbs": 71.6
+  },
+  {
+    "name": "Atum conserva em óleo",
+    "carbs": 0
+  },
+  {
+    "name": "Atum de cebolada",
+    "carbs": 2.6
+  },
+  {
+    "name": "Atum fresco cru",
+    "carbs": 0
+  },
+  {
+    "name": "Atum fresco grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Avelã, miolo",
+    "carbs": 6
+  },
+  {
+    "name": "Azeite (4 marcas)",
+    "carbs": 0
+  },
+  {
+    "name": "Azeitona",
+    "carbs": 0
+  },
+  {
+    "name": "Bacalhau à Brás",
+    "carbs": 8.3
+  },
+  {
+    "name": "Bacalhau à Brás com azeite",
+    "carbs": 6.5
+  },
+  {
+    "name": "Bacalhau à Brás com azeite e azeitonas",
+    "carbs": 6.5
+  },
+  {
+    "name": "Bacalhau à Gomes de Sá",
+    "carbs": 13.1
+  },
+  {
+    "name": "Bacalhau à Gomes de Sá, com azeite",
+    "carbs": 7.4
+  },
+  {
+    "name": "Bacalhau assado no forno com azeite",
+    "carbs": 0.8
+  },
+  {
+    "name": "Bacalhau com natas",
+    "carbs": 9.2
+  },
+  {
+    "name": "Bacalhau com natas, com queijo ralado",
+    "carbs": 7.6
+  },
+  {
+    "name": "Bacalhau cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Bacalhau fresco cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Bacalhau fresco cru",
+    "carbs": 0
+  },
+  {
+    "name": "Bacalhau grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Bacalhau seco e salgado, demolhado cru",
+    "carbs": 0
+  },
+  {
+    "name": "Bacon",
+    "carbs": 0
+  },
+  {
+    "name": "Bacon grelhado sem adição de sal",
+    "carbs": 0
+  },
+  {
+    "name": "Banana",
+    "carbs": 21.8
+  },
+  {
+    "name": "Banha de porco",
+    "carbs": 0
+  },
+  {
+    "name": "Base em pó para bebida de ananás",
+    "carbs": 89.5
+  },
+  {
+    "name": "Base em pó para bebida de laranja",
+    "carbs": 88.9
+  },
+  {
+    "name": "Batata assada com pele, sem sal (só a polpa)",
+    "carbs": 19.2
+  },
+  {
+    "name": "Batata assada no forno",
+    "carbs": 24.8
+  },
+  {
+    "name": "Batata cozida",
+    "carbs": 18.5
+  },
+  {
+    "name": "Batata crua",
+    "carbs": 19.2
+  },
+  {
+    "name": "Batata doce assada",
+    "carbs": 28.3
+  },
+  {
+    "name": "Batata doce crua",
+    "carbs": 28.3
+  },
+  {
+    "name": "Batata estufada com cebola, azeite e óleo alimentar",
+    "carbs": 14.5
+  },
+  {
+    "name": "Batata frita caseira (em palitos)",
+    "carbs": 27.6
+  },
+  {
+    "name": "Batata frita, de pacote (em rodelas)",
+    "carbs": 39
+  },
+  {
+    "name": "Batata, fécula",
+    "carbs": 85
+  },
+  {
+    "name": "Bebida à base de soja com açúcar, com cálcio, sal e aromas",
+    "carbs": 4.2
+  },
+  {
+    "name": "Bebida à base de soja com açúcar, sal e aromas",
+    "carbs": 6.4
+  },
+  {
+    "name": "Bebida à base de soja natural, sem açúcar e sem sal",
+    "carbs": 0.4
+  },
+  {
+    "name": "Bebida refrigerante de laranja",
+    "carbs": 10.5
+  },
+  {
+    "name": "Bebida refrigerante gasosa",
+    "carbs": 7
+  },
+  {
+    "name": "Bebida refrigerante, cola",
+    "carbs": 9
+  },
+  {
+    "name": "Bebida refrigerante, cola light",
+    "carbs": 0
+  },
+  {
+    "name": "Berbigão aberto ao natural sem sal",
+    "carbs": 5.4
+  },
+  {
+    "name": "Berbigão cru",
+    "carbs": 2.7
+  },
+  {
+    "name": "Beringela crua",
+    "carbs": 2.4
+  },
+  {
+    "name": "Beringela grelhada com azeite",
+    "carbs": 4.3
+  },
+  {
+    "name": "Beterraba (raiz) cozida sem sal",
+    "carbs": 3.4
+  },
+  {
+    "name": "Beterraba (raiz) crua",
+    "carbs": 3.5
+  },
+  {
+    "name": "Bife de atum fresco cozinhado com azeite e com vinho",
+    "carbs": 0.2
+  },
+  {
+    "name": "Bife de cavalo, alcatra crua",
+    "carbs": 0
+  },
+  {
+    "name": "Bife de cavalo, alcatra frita com manteiga",
+    "carbs": 0
+  },
+  {
+    "name": "Bife de cavalo, alcatra frita com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Bife de cavalo, alcatra frita, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Bife de espadarte cozinhado com azeite e com vinho",
+    "carbs": 0.4
+  },
+  {
+    "name": "Bife de porco grelhado",
+    "carbs": 0.7
+  },
+  {
+    "name": "Bife de vaca (valor médio de acém, alcatra e lombo) cru",
+    "carbs": 0
+  },
+  {
+    "name": "Bife de vaca (valor médio de acém, alcatra e lombo) frito com manteiga",
+    "carbs": 0.1
+  },
+  {
+    "name": "Bife de vaca (valor médio de acém, alcatra e lombo) frito, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Bife de vaca (valor médio de acém, alcatra e lombo) grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Bife de vaca à café",
+    "carbs": 1.6
+  },
+  {
+    "name": "Bife de vaca à Marrare com manteiga",
+    "carbs": 0.9
+  },
+  {
+    "name": "Bife de vaca à Marrare com margarina",
+    "carbs": 0.8
+  },
+  {
+    "name": "Bife de vaca com ovo a cavalo com banha",
+    "carbs": 0.5
+  },
+  {
+    "name": "Bife de vaca com ovo a cavalo com manteiga",
+    "carbs": 0.6
+  },
+  {
+    "name": "Bife de vitela frito",
+    "carbs": 0.4
+  },
+  {
+    "name": "Biscoitos caseiros",
+    "carbs": 73.4
+  },
+  {
+    "name": "Biscoitos de trigo integral tipo \"Weetabix",
+    "carbs": 71.5
+  },
+  {
+    "name": "Biscoitos limão",
+    "carbs": 77.9
+  },
+  {
+    "name": "Biscoitos, argolas",
+    "carbs": 69.7
+  },
+  {
+    "name": "Biscoitos, línguas de gato",
+    "carbs": 84.1
+  },
+  {
+    "name": "Biscoitos, línguas de veado",
+    "carbs": 65.1
+  },
+  {
+    "name": "Biscoitos, palitos la Reine",
+    "carbs": 66.6
+  },
+  {
+    "name": "Bola de Berlim sem creme",
+    "carbs": 43.7
+  },
+  {
+    "name": "Bolacha \"Belga",
+    "carbs": 70.1
+  },
+  {
+    "name": "Bolacha \"Cream cracker",
+    "carbs": 61.6
+  },
+  {
+    "name": "Bolacha água e sal",
+    "carbs": 61
+  },
+  {
+    "name": "Bolacha aveia",
+    "carbs": 57.5
+  },
+  {
+    "name": "Bolacha baunilha",
+    "carbs": 55.3
+  },
+  {
+    "name": "Bolacha chocolate",
+    "carbs": 65.4
+  },
+  {
+    "name": "Bolacha integral (trigo)",
+    "carbs": 65.6
+  },
+  {
+    "name": "Bolacha manteiga",
+    "carbs": 65.2
+  },
+  {
+    "name": "Bolacha Maria",
+    "carbs": 72
+  },
+  {
+    "name": "Bolacha torrada",
+    "carbs": 68.5
+  },
+  {
+    "name": "Bolo-Rei",
+    "carbs": 57.4
+  },
+  {
+    "name": "Bolo de arroz",
+    "carbs": 62.7
+  },
+  {
+    "name": "Bolo de bolacha Maria",
+    "carbs": 46.3
+  },
+  {
+    "name": "Bolo de chocolate",
+    "carbs": 47
+  },
+  {
+    "name": "Bolo de coco",
+    "carbs": 37.8
+  },
+  {
+    "name": "Bolo ferradura",
+    "carbs": 71.6
+  },
+  {
+    "name": "Bolo inglês",
+    "carbs": 57
+  },
+  {
+    "name": "Brandy",
+    "carbs": 0
+  },
+  {
+    "name": "Brócolos cozidos",
+    "carbs": 1.3
+  },
+  {
+    "name": "Brócolos crus",
+    "carbs": 1.5
+  },
+  {
+    "name": "Cação cru",
+    "carbs": 0
+  },
+  {
+    "name": "Cação frito",
+    "carbs": 2.7
+  },
+  {
+    "name": "Cacau em pó",
+    "carbs": 11.1
+  },
+  {
+    "name": "Café solúvel (pó) com cafeína (2 marcas)",
+    "carbs": 41.1
+  },
+  {
+    "name": "Café solúvel (pó) com cafeína (produto branco)",
+    "carbs": 41.1
+  },
+  {
+    "name": "Café solúvel (pó) descafeinado (2 marcas)",
+    "carbs": 42.6
+  },
+  {
+    "name": "Café solúvel (pó) descafeinado (produto branco)",
+    "carbs": 42.6
+  },
+  {
+    "name": "Café, infusão - bica (3 marcas)",
+    "carbs": 0.3
+  },
+  {
+    "name": "Café, infusão - café de cafeteira (3 marcas)",
+    "carbs": 0.3
+  },
+  {
+    "name": "Café, infusão - carioca (2 marcas)",
+    "carbs": 0.3
+  },
+  {
+    "name": "Café, infusão - valor médio (bica 60% e café de cafeteira 40%)",
+    "carbs": 0.3
+  },
+  {
+    "name": "Caldeirada de bacalhau",
+    "carbs": 7.1
+  },
+  {
+    "name": "Caldeirada de bacalhau com enchidos e massa",
+    "carbs": 9.7
+  },
+  {
+    "name": "Caldeirada de cabrito com azeite e banha",
+    "carbs": 8.3
+  },
+  {
+    "name": "Caldeirada de cabrito com azeite e margarina",
+    "carbs": 8.3
+  },
+  {
+    "name": "Caldeirada de enguias",
+    "carbs": 8.2
+  },
+  {
+    "name": "Caldeirada de enguias à moda de Aveiro",
+    "carbs": 5.3
+  },
+  {
+    "name": "Caldeirada de pargo e peixe-espada-preto",
+    "carbs": 4.4
+  },
+  {
+    "name": "Caldeirada de peixe",
+    "carbs": 4.4
+  },
+  {
+    "name": "Caldeirada de safio com amêijoas",
+    "carbs": 5.8
+  },
+  {
+    "name": "Caldeirada de safio, raia e tamboril",
+    "carbs": 9.8
+  },
+  {
+    "name": "Caldo preparado com cubo de carne de galinha (diluição 2%)",
+    "carbs": 0.2
+  },
+  {
+    "name": "Caldo preparado com cubo de carne de vaca (diluição 2%)",
+    "carbs": 0.2
+  },
+  {
+    "name": "Camarão cozido",
+    "carbs": 0.4
+  },
+  {
+    "name": "Camarão cozido sem sal",
+    "carbs": 0.3
+  },
+  {
+    "name": "Camarão cru",
+    "carbs": 0.3
+  },
+  {
+    "name": "Canela moída",
+    "carbs": 55.5
+  },
+  {
+    "name": "Canja de frango com massa",
+    "carbs": 2.1
+  },
+  {
+    "name": "Canja de galinha com aipo",
+    "carbs": 2.3
+  },
+  {
+    "name": "Cantarilho (Redfish) assado com cebola, tomate, azeite e bacon",
+    "carbs": 1.2
+  },
+  {
+    "name": "Cantarilho (Redfish) cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Cantarilho (Redfish) cru",
+    "carbs": 0
+  },
+  {
+    "name": "Cantarilho no forno",
+    "carbs": 5.7
+  },
+  {
+    "name": "Carambola",
+    "carbs": 7.1
+  },
+  {
+    "name": "Carapau cru",
+    "carbs": 0
+  },
+  {
+    "name": "Carapau frito",
+    "carbs": 1
+  },
+  {
+    "name": "Carapau grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Carne à bolonhesa",
+    "carbs": 15.6
+  },
+  {
+    "name": "Carne à jardineira",
+    "carbs": 5.6
+  },
+  {
+    "name": "Carne de porco à alentejana",
+    "carbs": 1.8
+  },
+  {
+    "name": "Carne de porco à alentejana sem massa de pimentão",
+    "carbs": 2.2
+  },
+  {
+    "name": "Castanha assada com sal",
+    "carbs": 45.5
+  },
+  {
+    "name": "Castanha de caju torrada  e salgada",
+    "carbs": 19.4
+  },
+  {
+    "name": "Castanha pilada",
+    "carbs": 70
+  },
+  {
+    "name": "Castanha, miolo",
+    "carbs": 39.8
+  },
+  {
+    "name": "Cavala cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Cavala crua",
+    "carbs": 0
+  },
+  {
+    "name": "Cavala em filetes, conserva em azeite",
+    "carbs": 0
+  },
+  {
+    "name": "Cavala grelhada",
+    "carbs": 0.6
+  },
+  {
+    "name": "Cavala no forno",
+    "carbs": 2.3
+  },
+  {
+    "name": "Cebola cozida",
+    "carbs": 2.4
+  },
+  {
+    "name": "Cebola crua",
+    "carbs": 3.1
+  },
+  {
+    "name": "Cebola frita com óleo alimentar",
+    "carbs": 6.2
+  },
+  {
+    "name": "Cenoura cozida",
+    "carbs": 3.6
+  },
+  {
+    "name": "Cenoura crua",
+    "carbs": 4.4
+  },
+  {
+    "name": "Cereja (4 variedades)",
+    "carbs": 13.3
+  },
+  {
+    "name": "Cereja, conserva em calda de açúcar",
+    "carbs": 28.7
+  },
+  {
+    "name": "Cereja, cristalizada",
+    "carbs": 79.9
+  },
+  {
+    "name": "Cerveja branca",
+    "carbs": 0.5
+  },
+  {
+    "name": "Cerveja preta",
+    "carbs": 0.6
+  },
+  {
+    "name": "Cerveja sem álcool",
+    "carbs": 1.5
+  },
+  {
+    "name": "Chá, infusão, de ervas",
+    "carbs": 0.2
+  },
+  {
+    "name": "Chá, infusão, preto",
+    "carbs": 0
+  },
+  {
+    "name": "Chá, infusão, verde",
+    "carbs": 0
+  },
+  {
+    "name": "Chamuça",
+    "carbs": 39.3
+  },
+  {
+    "name": "Cherne cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Cherne cru",
+    "carbs": 0
+  },
+  {
+    "name": "Cherne grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Chicharro cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Chicharro cru",
+    "carbs": 0
+  },
+  {
+    "name": "Chicharro grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Chicória crua",
+    "carbs": 0.9
+  },
+  {
+    "name": "Choco cru",
+    "carbs": 0
+  },
+  {
+    "name": "Choco grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Chocolate de leite",
+    "carbs": 53.1
+  },
+  {
+    "name": "Chocolate em barra, culinária",
+    "carbs": 44
+  },
+  {
+    "name": "Chocolate em pó",
+    "carbs": 63.8
+  },
+  {
+    "name": "Chouriço de carne de porco, gordo, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Chouriço de carne de porco, magro, cozido sem adição de sal",
+    "carbs": 0
+  },
+  {
+    "name": "Chouriço de carne de porco, magro, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Chouriço de carne de porco, magro, grelhado sem adição de sal",
+    "carbs": 0
+  },
+  {
+    "name": "Chouriço de sangue cozido sem adição de sal",
+    "carbs": 0
+  },
+  {
+    "name": "Chouriço de sangue cru",
+    "carbs": 0
+  },
+  {
+    "name": "Clementina",
+    "carbs": 11.1
+  },
+  {
+    "name": "Coco seco, ralado",
+    "carbs": 6.4
+  },
+  {
+    "name": "Codorniz carne sem pele crua",
+    "carbs": 0
+  },
+  {
+    "name": "Codorniz com pele crua",
+    "carbs": 0
+  },
+  {
+    "name": "Codorniz com pele estufada com azeite",
+    "carbs": 0.7
+  },
+  {
+    "name": "Codorniz com pele grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Coelho à caçador",
+    "carbs": 1.6
+  },
+  {
+    "name": "Coelho cru",
+    "carbs": 0
+  },
+  {
+    "name": "Coelho em vinha de alhos",
+    "carbs": 1.4
+  },
+  {
+    "name": "Coelho estufado com azeite",
+    "carbs": 0.9
+  },
+  {
+    "name": "Coelho estufado com margarina",
+    "carbs": 0.9
+  },
+  {
+    "name": "Coentros crus",
+    "carbs": 1.8
+  },
+  {
+    "name": "Cogumelos crus",
+    "carbs": 0.5
+  },
+  {
+    "name": "Cogumelos enlatados, escorridos",
+    "carbs": 0
+  },
+  {
+    "name": "Cogumelos fritos com óleo alimentar",
+    "carbs": 0.3
+  },
+  {
+    "name": "Compota de ameixa",
+    "carbs": 49.2
+  },
+  {
+    "name": "Compota de ananás",
+    "carbs": 50.8
+  },
+  {
+    "name": "Compota de cereja",
+    "carbs": 61.9
+  },
+  {
+    "name": "Compota de damasco",
+    "carbs": 58.9
+  },
+  {
+    "name": "Compota de laranja",
+    "carbs": 59.5
+  },
+  {
+    "name": "Coração de porco, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Coração de porco, estufado com banha e margarina",
+    "carbs": 1
+  },
+  {
+    "name": "Coração de vaca, cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Coração de vaca, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Coração de vaca, estufado com banha e margarina",
+    "carbs": 0.9
+  },
+  {
+    "name": "Coração de vitela, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Corvina cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Corvina crua",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de borrego grelhada",
+    "carbs": 2.8
+  },
+  {
+    "name": "Costeleta de cabrito crua",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de cabrito grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de carneiro crua",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de porco gorda crua",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de porco gorda grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de porco grelhada",
+    "carbs": 0.8
+  },
+  {
+    "name": "Costeleta de porco meio gorda crua",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de porco meio gorda estufada com azeite e banha",
+    "carbs": 0.7
+  },
+  {
+    "name": "Costeleta de porco meio gorda estufada com azeite e margarina",
+    "carbs": 0.7
+  },
+  {
+    "name": "Costeleta de porco meio gorda estufada com margarina",
+    "carbs": 0.7
+  },
+  {
+    "name": "Costeleta de porco meio gorda estufada com óleo alimentar e banha",
+    "carbs": 0.7
+  },
+  {
+    "name": "Costeleta de porco meio gorda estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de porco meio gorda grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de porco meio gorda panada",
+    "carbs": 8.6
+  },
+  {
+    "name": "Costeleta de vitela crua",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de vitela frita",
+    "carbs": 3.4
+  },
+  {
+    "name": "Costeleta de vitela frita com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de vitela frita, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta de vitela grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna assada de borrego com azeite e margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna assada de borrego com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna assada de borrego, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna cozida de borrego",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna crua de borrego",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna de borrego estufada com azeite e margarina",
+    "carbs": 1.6
+  },
+  {
+    "name": "Costeleta ou perna de borrego estufada com margarina",
+    "carbs": 1.6
+  },
+  {
+    "name": "Costeleta ou perna de borrego estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna de borrego frita com margarina, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna de borrego grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Costeleta ou perna de carneiro magra frita com margarina, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Courgette crua",
+    "carbs": 2
+  },
+  {
+    "name": "Courgette frita com óleo alimentar",
+    "carbs": 2.5
+  },
+  {
+    "name": "Couve-flor cozida",
+    "carbs": 2.3
+  },
+  {
+    "name": "Couve-flor crua",
+    "carbs": 3.3
+  },
+  {
+    "name": "Couve branca cozida",
+    "carbs": 2.2
+  },
+  {
+    "name": "Couve branca crua",
+    "carbs": 3.5
+  },
+  {
+    "name": "Couve de Bruxelas cozida",
+    "carbs": 3.5
+  },
+  {
+    "name": "Couve de Bruxelas crua",
+    "carbs": 4
+  },
+  {
+    "name": "Couve galega cozida",
+    "carbs": 2.9
+  },
+  {
+    "name": "Couve galega crua",
+    "carbs": 3.1
+  },
+  {
+    "name": "Couve lombarda cozida",
+    "carbs": 1.4
+  },
+  {
+    "name": "Couve lombarda crua",
+    "carbs": 2.1
+  },
+  {
+    "name": "Couve portuguesa cozida",
+    "carbs": 2.5
+  },
+  {
+    "name": "Couve portuguesa crua",
+    "carbs": 3.5
+  },
+  {
+    "name": "Couve roxa crua",
+    "carbs": 3.9
+  },
+  {
+    "name": "Cozido à portuguesa",
+    "carbs": 3.8
+  },
+  {
+    "name": "Cozido à portuguesa com grão",
+    "carbs": 20.5
+  },
+  {
+    "name": "Creme de camarão",
+    "carbs": 1.7
+  },
+  {
+    "name": "Creme de camarão com natas",
+    "carbs": 1.9
+  },
+  {
+    "name": "Creme de ervilhas",
+    "carbs": 3
+  },
+  {
+    "name": "Creme para barrar de cacau e avelãs (8 marcas)",
+    "carbs": 54.7
+  },
+  {
+    "name": "Creme vegetal culinário, 75% gordura, sem sal",
+    "carbs": 0.4
+  },
+  {
+    "name": "Creme vegetal para barrar  72% gordura, 33% ácidos gordos polinsaturados",
+    "carbs": 0.4
+  },
+  {
+    "name": "Creme vegetal para barrar 35% gordura, com fitosteróis",
+    "carbs": 3.2
+  },
+  {
+    "name": "Creme vegetal para barrar 37% gordura",
+    "carbs": 0.2
+  },
+  {
+    "name": "Creme vegetal para barrar 58% gordura, com cálcio",
+    "carbs": 0.5
+  },
+  {
+    "name": "Creme vegetal para barrar 70% gordura, 53% ácidos gordos monoinsaturados",
+    "carbs": 0.5
+  },
+  {
+    "name": "Creme vegetal para barrar 70% gordura, com sal",
+    "carbs": 0.3
+  },
+  {
+    "name": "Croissant",
+    "carbs": 42.2
+  },
+  {
+    "name": "Croquete",
+    "carbs": 23.1
+  },
+  {
+    "name": "Croquete de carne de vaca meio-gorda",
+    "carbs": 19.1
+  },
+  {
+    "name": "Cubo de carne de galinha para caldo",
+    "carbs": 9
+  },
+  {
+    "name": "Cubo de carne de vaca para caldo",
+    "carbs": 8
+  },
+  {
+    "name": "Damasco",
+    "carbs": 8.5
+  },
+  {
+    "name": "Damasco seco",
+    "carbs": 41.2
+  },
+  {
+    "name": "Damasco, conserva em calda de açúcar",
+    "carbs": 39.3
+  },
+  {
+    "name": "Dióspiro",
+    "carbs": 14.8
+  },
+  {
+    "name": "Doce de cereja",
+    "carbs": 64.9
+  },
+  {
+    "name": "Doce de damasco",
+    "carbs": 57.4
+  },
+  {
+    "name": "Doce de framboesa",
+    "carbs": 59.7
+  },
+  {
+    "name": "Doce de ginja",
+    "carbs": 64.8
+  },
+  {
+    "name": "Doce de maçã",
+    "carbs": 59
+  },
+  {
+    "name": "Doce de morango",
+    "carbs": 60.5
+  },
+  {
+    "name": "Doce de pêssego",
+    "carbs": 51.3
+  },
+  {
+    "name": "Dourada cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Dourada crua",
+    "carbs": 0
+  },
+  {
+    "name": "Dourada grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Éclair de chocolate",
+    "carbs": 36.5
+  },
+  {
+    "name": "Empada",
+    "carbs": 33.9
+  },
+  {
+    "name": "Empada de carne - massa",
+    "carbs": 55.2
+  },
+  {
+    "name": "Empada de carne - recheio",
+    "carbs": 0.7
+  },
+  {
+    "name": "Empadão de atum",
+    "carbs": 11.2
+  },
+  {
+    "name": "Empadão de bacalhau",
+    "carbs": 10.9
+  },
+  {
+    "name": "Empadão de carne com manteiga",
+    "carbs": 10.7
+  },
+  {
+    "name": "Empadão de carne com margarina",
+    "carbs": 10.7
+  },
+  {
+    "name": "Empadão de carne guisada",
+    "carbs": 10.9
+  },
+  {
+    "name": "Empadão de peixe",
+    "carbs": 11
+  },
+  {
+    "name": "Enguia crua",
+    "carbs": 0
+  },
+  {
+    "name": "Enguia frita",
+    "carbs": 3.2
+  },
+  {
+    "name": "Entrecosto de porco cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Entrecosto de porco cru",
+    "carbs": 0
+  },
+  {
+    "name": "Entrecosto de porco estufado com azeite e banha",
+    "carbs": 0.7
+  },
+  {
+    "name": "Entrecosto de porco estufado com azeite e margarina",
+    "carbs": 0.7
+  },
+  {
+    "name": "Entrecosto de porco estufado com margarina",
+    "carbs": 0.7
+  },
+  {
+    "name": "Entrecosto de porco estufado com óleo alimentar e banha",
+    "carbs": 0.7
+  },
+  {
+    "name": "Entrecosto de porco estufado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Entrecostode porco grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Ervilhas estufadas",
+    "carbs": 9.6
+  },
+  {
+    "name": "Ervilhas secas cozidas",
+    "carbs": 18.1
+  },
+  {
+    "name": "Ervilhas secas cruas",
+    "carbs": 49.4
+  },
+  {
+    "name": "Ervilhas, grão, congeladas cozidas",
+    "carbs": 7.5
+  },
+  {
+    "name": "Ervilhas, grão, congeladas cruas",
+    "carbs": 7
+  },
+  {
+    "name": "Ervilhas, grão, frescas cozidas",
+    "carbs": 7.9
+  },
+  {
+    "name": "Ervilhas, grão, frescas cruas",
+    "carbs": 8.6
+  },
+  {
+    "name": "Ervilhas, vagens cozidas",
+    "carbs": 3.5
+  },
+  {
+    "name": "Ervilhas, vagens cruas",
+    "carbs": 3.9
+  },
+  {
+    "name": "Espadarte cru",
+    "carbs": 0
+  },
+  {
+    "name": "Espadarte grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Espargos cozidos",
+    "carbs": 2.2
+  },
+  {
+    "name": "Espargos crus",
+    "carbs": 2.7
+  },
+  {
+    "name": "Esparguete cozido",
+    "carbs": 19.9
+  },
+  {
+    "name": "Esparguete cru",
+    "carbs": 71.1
+  },
+  {
+    "name": "Esparguete estufado com cenoura e azeite",
+    "carbs": 17.6
+  },
+  {
+    "name": "Esparguete estufado com cenoura e margarina",
+    "carbs": 17.6
+  },
+  {
+    "name": "Espetada de porco grelhada",
+    "carbs": 1.3
+  },
+  {
+    "name": "Espetada de vaca grelhada",
+    "carbs": 0.8
+  },
+  {
+    "name": "Espinafres crus",
+    "carbs": 0.8
+  },
+  {
+    "name": "Farelo de trigo tipo \"All-Bran",
+    "carbs": 39.8
+  },
+  {
+    "name": "Farinha de alfarroba",
+    "carbs": 85.6
+  },
+  {
+    "name": "Farinha de centeio tipo 70",
+    "carbs": 78.5
+  },
+  {
+    "name": "Farinha de centeio tipo 85",
+    "carbs": 76
+  },
+  {
+    "name": "Farinha de milho tipo 70",
+    "carbs": 75.3
+  },
+  {
+    "name": "Farinha de pau (mandioca)",
+    "carbs": 84.6
+  },
+  {
+    "name": "Farinha de trigo integral",
+    "carbs": 65.2
+  },
+  {
+    "name": "Farinha de trigo tipo 150",
+    "carbs": 73
+  },
+  {
+    "name": "Farinha de trigo tipo 55",
+    "carbs": 74.3
+  },
+  {
+    "name": "Farinha láctea 5 frutos tipo \"Cerelac\" (com farinha de trigo)",
+    "carbs": 65
+  },
+  {
+    "name": "Farinha láctea maçãs tipo \"Cerelac\" (com farinha de trigo)",
+    "carbs": 66
+  },
+  {
+    "name": "Farinha láctea tipo \"Cerelac\" (com farinha de trigo)",
+    "carbs": 68
+  },
+  {
+    "name": "Farinheira cozida sem adição de sal",
+    "carbs": 26.4
+  },
+  {
+    "name": "Farinheira crua",
+    "carbs": 26.7
+  },
+  {
+    "name": "Favada à portuguesa",
+    "carbs": 8.4
+  },
+  {
+    "name": "Favas frescas cozidas",
+    "carbs": 7.4
+  },
+  {
+    "name": "Favas frescas cruas",
+    "carbs": 8.5
+  },
+  {
+    "name": "Favas secas cozidas (demolhadas)",
+    "carbs": 10.7
+  },
+  {
+    "name": "Favas secas cruas",
+    "carbs": 32.8
+  },
+  {
+    "name": "Feijão branco cozido (demolhado)",
+    "carbs": 14.6
+  },
+  {
+    "name": "Feijão branco cru",
+    "carbs": 43.9
+  },
+  {
+    "name": "Feijão frade (feijão miúdo) cozido (demolhado)",
+    "carbs": 18.1
+  },
+  {
+    "name": "Feijão frade (feijão miúdo) cru",
+    "carbs": 55.3
+  },
+  {
+    "name": "Feijão manteiga cozido (demolhado)",
+    "carbs": 14
+  },
+  {
+    "name": "Feijão manteiga cru",
+    "carbs": 42.6
+  },
+  {
+    "name": "Feijão manteiga, \"burger\" de feijão frito com azeite",
+    "carbs": 19.8
+  },
+  {
+    "name": "Feijão manteiga, \"burger\" de feijão frito com óleo de milho",
+    "carbs": 19.8
+  },
+  {
+    "name": "Feijão verde fresco cozido",
+    "carbs": 3.5
+  },
+  {
+    "name": "Feijão verde fresco cru",
+    "carbs": 3.8
+  },
+  {
+    "name": "Feijoada com carne de porco",
+    "carbs": 13.3
+  },
+  {
+    "name": "Feijoada com carne de porco e de vaca",
+    "carbs": 13.3
+  },
+  {
+    "name": "Feijoada com enchidos e ovos",
+    "carbs": 14.1
+  },
+  {
+    "name": "Fermento em pó",
+    "carbs": 34.4
+  },
+  {
+    "name": "Fermento fresco de padeiro",
+    "carbs": 1
+  },
+  {
+    "name": "Fermento seco de padeiro",
+    "carbs": 3.2
+  },
+  {
+    "name": "Fiambre, pá",
+    "carbs": 0
+  },
+  {
+    "name": "Fiambre, peito de frango",
+    "carbs": 2.8
+  },
+  {
+    "name": "Fiambre, peito de peru",
+    "carbs": 2.6
+  },
+  {
+    "name": "Fiambre, perna",
+    "carbs": 0
+  },
+  {
+    "name": "Fígado de porco, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Fígado de porco, frito com margarina e banha",
+    "carbs": 0
+  },
+  {
+    "name": "Fígado de porco, frito, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Fígado de porco, grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Fígado de vaca, cru",
+    "carbs": 2.1
+  },
+  {
+    "name": "Fígado de vaca, frito, sem molho",
+    "carbs": 2.5
+  },
+  {
+    "name": "Fígado de vitela, cru",
+    "carbs": 1.5
+  },
+  {
+    "name": "Fígado de vitela, frito com banha e manteiga",
+    "carbs": 1.7
+  },
+  {
+    "name": "Fígado de vitela, frito, sem molho",
+    "carbs": 1.5
+  },
+  {
+    "name": "Fígado de vitela, grelhado",
+    "carbs": 1.9
+  },
+  {
+    "name": "Fígado, paté caseiro de aves",
+    "carbs": 4.6
+  },
+  {
+    "name": "Figo (5 variedades)",
+    "carbs": 16.3
+  },
+  {
+    "name": "Figo cristalizado",
+    "carbs": 71.2
+  },
+  {
+    "name": "Figo seco",
+    "carbs": 58.3
+  },
+  {
+    "name": "Filetes de bacalhau fritos",
+    "carbs": 5.1
+  },
+  {
+    "name": "Flocos de arroz",
+    "carbs": 83.4
+  },
+  {
+    "name": "Flocos de aveia",
+    "carbs": 61.7
+  },
+  {
+    "name": "Flocos de cereais e frutos secos tipo \"Muesli",
+    "carbs": 69.1
+  },
+  {
+    "name": "Flocos de milho tipo \"Corn Flakes",
+    "carbs": 81.1
+  },
+  {
+    "name": "Flocos de trigo",
+    "carbs": 69
+  },
+  {
+    "name": "Flocos de trigo com figos tipo \"Nestum",
+    "carbs": 76.3
+  },
+  {
+    "name": "Flocos de trigo com mel tipo \"Nestum",
+    "carbs": 84.6
+  },
+  {
+    "name": "Flocos de trigo e arroz enriquecidos com vitaminas, cálcio e ferro",
+    "carbs": 79.2
+  },
+  {
+    "name": "Flocos de trigo integral tipo \"All-Bran Flakes",
+    "carbs": 64.2
+  },
+  {
+    "name": "Framboesa",
+    "carbs": 5.1
+  },
+  {
+    "name": "Francesinha",
+    "carbs": 6.5
+  },
+  {
+    "name": "Frango (1/4 de frango), peito e asa com pele cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Frango (1/4 de frango), peito e asa com pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Frango (1/4 de frango), peito e asa com pele estufado com azeite e margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Frango (1/4 de frango), peito e asa com pele estufado com margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Frango (1/4 de frango), peito e asa com pele estufado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Frango (1/4 de frango), peito e asa com pele grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Frango (1/4 de frango), perna com pele assada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Frango (1/4 de frango), perna com pele cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Frango (1/4 de frango), perna com pele crua",
+    "carbs": 0
+  },
+  {
+    "name": "Frango (1/4 de frango), perna com pele estufada com azeite e margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Frango (1/4 de frango), perna com pele estufada com margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Frango (1/4 de frango), perna com pele estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Frango (1/4 de frango), perna com pele grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro com pele assado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro com pele cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro com pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro com pele estufado com azeite e margarina",
+    "carbs": 1.8
+  },
+  {
+    "name": "Frango inteiro com pele estufado com margarina",
+    "carbs": 1.8
+  },
+  {
+    "name": "Frango inteiro com pele estufado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro com pele grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro sem pele cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro sem pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro sem pele estufado com azeite e margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Frango inteiro sem pele estufado com margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Frango inteiro sem pele estufado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Frango inteiro sem pele grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Frango, pele crua",
+    "carbs": 0
+  },
+  {
+    "name": "Garoupa cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Garoupa crua",
+    "carbs": 0
+  },
+  {
+    "name": "Garoupa grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Gelado caseiro com bolachas e natas",
+    "carbs": 36.5
+  },
+  {
+    "name": "Gelado caseiro com palitos la Reine",
+    "carbs": 28.7
+  },
+  {
+    "name": "Gelado de água (sorvete)",
+    "carbs": 32.6
+  },
+  {
+    "name": "Gelado de leite",
+    "carbs": 21.7
+  },
+  {
+    "name": "Gelatina desidratada (pó ou folha)",
+    "carbs": 0
+  },
+  {
+    "name": "Gelatina preparada com ananás em conserva",
+    "carbs": 21.6
+  },
+  {
+    "name": "Gelatina preparada com laranja e sumo de laranja",
+    "carbs": 17.4
+  },
+  {
+    "name": "Geleia de casca de laranja",
+    "carbs": 68
+  },
+  {
+    "name": "Gin - Rum- Whisky",
+    "carbs": 0
+  },
+  {
+    "name": "Ginja",
+    "carbs": 11.5
+  },
+  {
+    "name": "Goraz assado com cebola, tomate, azeite e óleo alimentar",
+    "carbs": 1.5
+  },
+  {
+    "name": "Goraz cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Goraz cru",
+    "carbs": 0
+  },
+  {
+    "name": "Goraz grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Goraz no forno",
+    "carbs": 0.7
+  },
+  {
+    "name": "Grão-de-bico cozido (demolhado)",
+    "carbs": 16.7
+  },
+  {
+    "name": "Grão-de-bico cru",
+    "carbs": 51.4
+  },
+  {
+    "name": "Grelos de couve cozidos",
+    "carbs": 1.5
+  },
+  {
+    "name": "Grelos de couve crus",
+    "carbs": 2.5
+  },
+  {
+    "name": "Grelos de nabo cozidos",
+    "carbs": 1.3
+  },
+  {
+    "name": "Grelos de nabo crus",
+    "carbs": 2.3
+  },
+  {
+    "name": "Gressino",
+    "carbs": 67
+  },
+  {
+    "name": "Hambúrguer de peru, frito",
+    "carbs": 3
+  },
+  {
+    "name": "Hambúrguer de porco, frito, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Hambúrguer de porco, grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Hambúrguer de vaca, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Hambúrguer de vaca, grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Hambúrguer vaca, frito",
+    "carbs": 1.2
+  },
+  {
+    "name": "Imperador assado com cebola, tomate, azeite e óleo alimentar",
+    "carbs": 1.4
+  },
+  {
+    "name": "Imperador cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Imperador cru",
+    "carbs": 0
+  },
+  {
+    "name": "Imperador grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Iogurte açucarado batido gordo com cereais e fruta",
+    "carbs": 15.8
+  },
+  {
+    "name": "Iogurte açucarado batido gordo com fruta",
+    "carbs": 12.4
+  },
+  {
+    "name": "Iogurte açucarado batido meio gordo",
+    "carbs": 13.1
+  },
+  {
+    "name": "Iogurte açucarado batido meio gordo com fruta",
+    "carbs": 14.6
+  },
+  {
+    "name": "Iogurte açucarado com edulcorante de síntese, batido magro com cereais",
+    "carbs": 5.7
+  },
+  {
+    "name": "Iogurte açucarado com edulcorante de síntese, sólido magro",
+    "carbs": 6.3
+  },
+  {
+    "name": "Iogurte açucarado líquido meio gordo",
+    "carbs": 11.2
+  },
+  {
+    "name": "Iogurte aromatizado açucarado batido gordo",
+    "carbs": 8.5
+  },
+  {
+    "name": "Iogurte aromatizado açucarado batido meio gordo",
+    "carbs": 12.5
+  },
+  {
+    "name": "Iogurte aromatizado açucarado líquido magro",
+    "carbs": 11.6
+  },
+  {
+    "name": "Iogurte aromatizado açucarado líquido meio gordo",
+    "carbs": 11.5
+  },
+  {
+    "name": "Iogurte aromatizado açucarado sólido magro",
+    "carbs": 11.8
+  },
+  {
+    "name": "Iogurte aromatizado açucarado sólido meio gordo",
+    "carbs": 10.1
+  },
+  {
+    "name": "Iogurte natural sólido magro",
+    "carbs": 5.2
+  },
+  {
+    "name": "Iogurte natural sólido meio gordo",
+    "carbs": 5
+  },
+  {
+    "name": "Jesuíta",
+    "carbs": 54
+  },
+  {
+    "name": "Lagosta cozida",
+    "carbs": 0.2
+  },
+  {
+    "name": "Lagostim cozido",
+    "carbs": 0.2
+  },
+  {
+    "name": "Lagostim cru",
+    "carbs": 0.2
+  },
+  {
+    "name": "Laranja (3 variedades)",
+    "carbs": 8.9
+  },
+  {
+    "name": "Lasanha à bolonhesa",
+    "carbs": 9.5
+  },
+  {
+    "name": "Leite condensado, de vaca",
+    "carbs": 56.4
+  },
+  {
+    "name": "Leite creme",
+    "carbs": 19.5
+  },
+  {
+    "name": "Leite de cabra cru",
+    "carbs": 4.6
+  },
+  {
+    "name": "Leite de ovelha cru",
+    "carbs": 4.2
+  },
+  {
+    "name": "Leite de vaca em pó gordo",
+    "carbs": 38.7
+  },
+  {
+    "name": "Leite de vaca em pó magro",
+    "carbs": 52.7
+  },
+  {
+    "name": "Leite de vaca em pó meio gordo",
+    "carbs": 45.6
+  },
+  {
+    "name": "Leite de vaca esterilizado achocolatado meio gordo",
+    "carbs": 9.9
+  },
+  {
+    "name": "Leite de vaca esterilizado gordo",
+    "carbs": 4.5
+  },
+  {
+    "name": "Leite de vaca esterilizado magro",
+    "carbs": 4.7
+  },
+  {
+    "name": "Leite de vaca esterilizado meio gordo",
+    "carbs": 4.7
+  },
+  {
+    "name": "Leite de vaca pasteurizado gordo",
+    "carbs": 4.7
+  },
+  {
+    "name": "Leite de vaca pasteurizado gordo especial",
+    "carbs": 4.8
+  },
+  {
+    "name": "Leite de vaca UHT aromatizado meio gordo",
+    "carbs": 7.9
+  },
+  {
+    "name": "Leite de vaca UHT gordo",
+    "carbs": 4.7
+  },
+  {
+    "name": "Leite de vaca UHT magro",
+    "carbs": 4.9
+  },
+  {
+    "name": "Leite de vaca UHT meio gordo",
+    "carbs": 4.9
+  },
+  {
+    "name": "Leite evaporado, de vaca",
+    "carbs": 9.8
+  },
+  {
+    "name": "Leite humano",
+    "carbs": 7.5
+  },
+  {
+    "name": "Leite humano, colostro",
+    "carbs": 6.3
+  },
+  {
+    "name": "Leite humano, transição",
+    "carbs": 6.6
+  },
+  {
+    "name": "Lentilhas secas cozidas",
+    "carbs": 16.7
+  },
+  {
+    "name": "Lentilhas secas cruas",
+    "carbs": 47.6
+  },
+  {
+    "name": "Licor beneditino",
+    "carbs": 34.8
+  },
+  {
+    "name": "Licor de anis",
+    "carbs": 36
+  },
+  {
+    "name": "Licor de ginja",
+    "carbs": 19
+  },
+  {
+    "name": "Licor simples",
+    "carbs": 24.4
+  },
+  {
+    "name": "Limão",
+    "carbs": 1.9
+  },
+  {
+    "name": "Língua de vaca, crua",
+    "carbs": 0
+  },
+  {
+    "name": "Língua de vaca, estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Linguado cru",
+    "carbs": 0
+  },
+  {
+    "name": "Linguado frito",
+    "carbs": 2.7
+  },
+  {
+    "name": "Linguado grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Linguiça",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de porco assado com azeite e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Lombo de porco assado com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de porco assado com óleo alimentar e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Lombo de porco assado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de porco cru",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de porco frito com manteiga",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de porco frito com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de porco grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de porco panado",
+    "carbs": 8.5
+  },
+  {
+    "name": "Lombo de vaca magro assado com azeite e margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vaca magro assado com azeite, manteiga e óleo alimentar",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vaca magro assado com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vaca magro assado com óleo alimentar e margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vaca magro assado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vaca magro cru",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vaca no forno",
+    "carbs": 2.5
+  },
+  {
+    "name": "Lombo de vitela assado com azeite e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Lombo de vitela assado com azeite, margarina e óleo alimentar",
+    "carbs": 0.2
+  },
+  {
+    "name": "Lombo de vitela assado com margarina e óleo alimentar",
+    "carbs": 0.2
+  },
+  {
+    "name": "Lombo de vitela assado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vitela cru",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vitela frito com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vitela frito, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo de vitela grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo ou pá de cavalo assado com azeite e manteiga",
+    "carbs": 0.1
+  },
+  {
+    "name": "Lombo ou pá de cavalo assado com margarina",
+    "carbs": 0.1
+  },
+  {
+    "name": "Lombo ou pá de cavalo assado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo ou pá de cavalo cru",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo ou pá de cavalo frito com manteiga",
+    "carbs": 0
+  },
+  {
+    "name": "Lombo ou pá de cavalo frito com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Lula crua",
+    "carbs": 0
+  },
+  {
+    "name": "Lula estufada com cebola, tomate e azeite",
+    "carbs": 2.9
+  },
+  {
+    "name": "Lula grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Maçã assada com açúcar",
+    "carbs": 23.9
+  },
+  {
+    "name": "Maçã assada sem açúcar",
+    "carbs": 15.7
+  },
+  {
+    "name": "Maçã com casca",
+    "carbs": 13.4
+  },
+  {
+    "name": "Maçã cozida com açúcar",
+    "carbs": 17
+  },
+  {
+    "name": "Maçã cozida sem açúcar",
+    "carbs": 10.5
+  },
+  {
+    "name": "Maçã seca",
+    "carbs": 57.1
+  },
+  {
+    "name": "Maçã sem casca",
+    "carbs": 12.7
+  },
+  {
+    "name": "Madalena",
+    "carbs": 54.7
+  },
+  {
+    "name": "Maionese caseira, com ovo e azeite",
+    "carbs": 0
+  },
+  {
+    "name": "Maionese caseira, com ovo e óleo de soja",
+    "carbs": 0
+  },
+  {
+    "name": "Manga",
+    "carbs": 11.7
+  },
+  {
+    "name": "Manteiga com sal",
+    "carbs": 0.7
+  },
+  {
+    "name": "Manteiga sem sal",
+    "carbs": 0.7
+  },
+  {
+    "name": "Margarina 3/4, de girassol",
+    "carbs": 0.3
+  },
+  {
+    "name": "Margarina culinária para folhados, com sal",
+    "carbs": 0.4
+  },
+  {
+    "name": "Margarina industrial para pastelaria, com sal",
+    "carbs": 0.4
+  },
+  {
+    "name": "Margarina líquida, 65% gordura, com sal",
+    "carbs": 0
+  },
+  {
+    "name": "Margarina vegetal culinária, 80% gordura, com sal",
+    "carbs": 0.4
+  },
+  {
+    "name": "Margarina vegetal culinária, com alho e sal",
+    "carbs": 4.4
+  },
+  {
+    "name": "Marmelada",
+    "carbs": 69.7
+  },
+  {
+    "name": "Marmelo",
+    "carbs": 9.3
+  },
+  {
+    "name": "Maruca cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Maruca crua",
+    "carbs": 0
+  },
+  {
+    "name": "Massa com ovo cozida",
+    "carbs": 13.3
+  },
+  {
+    "name": "Massa com ovo crua",
+    "carbs": 67.6
+  },
+  {
+    "name": "Massa de pimentão",
+    "carbs": 4.4
+  },
+  {
+    "name": "Massa miúda crua",
+    "carbs": 70
+  },
+  {
+    "name": "Massa para lasanha cozida",
+    "carbs": 22.6
+  },
+  {
+    "name": "Massa para lasanha crua",
+    "carbs": 71.4
+  },
+  {
+    "name": "Massa quebrada para quiche",
+    "carbs": 52.4
+  },
+  {
+    "name": "Meia-desfeita de bacalhau",
+    "carbs": 14.8
+  },
+  {
+    "name": "Mel",
+    "carbs": 78
+  },
+  {
+    "name": "Melancia",
+    "carbs": 5.5
+  },
+  {
+    "name": "Melão (3 variedades)",
+    "carbs": 5.7
+  },
+  {
+    "name": "Meloa",
+    "carbs": 4.2
+  },
+  {
+    "name": "Merengue",
+    "carbs": 83
+  },
+  {
+    "name": "Mexilhão cozido sem sal",
+    "carbs": 2.8
+  },
+  {
+    "name": "Mexilhão cru",
+    "carbs": 2
+  },
+  {
+    "name": "Milho, amido (pó)",
+    "carbs": 90.2
+  },
+  {
+    "name": "Milho, grão seco cru",
+    "carbs": 70.3
+  },
+  {
+    "name": "Minarina (meia margarina)",
+    "carbs": 0.4
+  },
+  {
+    "name": "Molho \"Béchamel\" com manteiga",
+    "carbs": 9.6
+  },
+  {
+    "name": "Molho \"Béchamel\" com margarina",
+    "carbs": 9.9
+  },
+  {
+    "name": "Molho branco com caldo de carne de vaca",
+    "carbs": 6.8
+  },
+  {
+    "name": "Molho branco com margarina",
+    "carbs": 18.5
+  },
+  {
+    "name": "Molho de bife frito com manteiga",
+    "carbs": 0.4
+  },
+  {
+    "name": "Molho de carne de vaca assada com azeite e margarina",
+    "carbs": 0.3
+  },
+  {
+    "name": "Molho de carne de vaca assada com margarina",
+    "carbs": 0.4
+  },
+  {
+    "name": "Molho de carne de vaca estufada com azeite e margarina",
+    "carbs": 0.4
+  },
+  {
+    "name": "Molho de carne de vaca estufada com vegetais, azeite e margarina",
+    "carbs": 1.3
+  },
+  {
+    "name": "Molho de lombo de porco frito com banha",
+    "carbs": 0
+  },
+  {
+    "name": "Molho de lombo de porco frito com banha e margarina",
+    "carbs": 0.1
+  },
+  {
+    "name": "Molho de lombo de porco frito com margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Molho de lombo de vaca frito com creme vegetal sem sal",
+    "carbs": 0.2
+  },
+  {
+    "name": "Molho de lombo de vaca frito com margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Molho de tomate",
+    "carbs": 4.9
+  },
+  {
+    "name": "Molho de tomate, \"ketchup",
+    "carbs": 26.9
+  },
+  {
+    "name": "Molho para francesinha",
+    "carbs": 4.8
+  },
+  {
+    "name": "Molho verde",
+    "carbs": 2.3
+  },
+  {
+    "name": "Morango",
+    "carbs": 5.3
+  },
+  {
+    "name": "Morcela crua",
+    "carbs": 12
+  },
+  {
+    "name": "Morcela grelhada sem adição de sal",
+    "carbs": 13.1
+  },
+  {
+    "name": "Mortadela",
+    "carbs": 1.7
+  },
+  {
+    "name": "Mousse de chocolate",
+    "carbs": 31
+  },
+  {
+    "name": "Nabo (raiz) cozido",
+    "carbs": 2.3
+  },
+  {
+    "name": "Nabo (raiz) cru",
+    "carbs": 3
+  },
+  {
+    "name": "Nata maturada pasteurizada 30% gordura",
+    "carbs": 2.7
+  },
+  {
+    "name": "Nata não maturada pasteurizada 33% gordura",
+    "carbs": 2.9
+  },
+  {
+    "name": "Nata não maturada pasteurizada 36% gordura",
+    "carbs": 1.9
+  },
+  {
+    "name": "Nata não maturada pasteurizada para café, 15% gordura",
+    "carbs": 2.4
+  },
+  {
+    "name": "Nata não maturada UHT 35% gordura",
+    "carbs": 3.1
+  },
+  {
+    "name": "Nata para bater pasteurizada 34% gordura",
+    "carbs": 2.1
+  },
+  {
+    "name": "Néctar de \"tutti - frutti",
+    "carbs": 10.8
+  },
+  {
+    "name": "Néctar de alperce",
+    "carbs": 12.9
+  },
+  {
+    "name": "Néctar de ananás",
+    "carbs": 10.5
+  },
+  {
+    "name": "Néctar de laranja",
+    "carbs": 9.6
+  },
+  {
+    "name": "Néctar de maçã",
+    "carbs": 11.3
+  },
+  {
+    "name": "Néctar de maçã, \"light",
+    "carbs": 4.6
+  },
+  {
+    "name": "Néctar de pêra",
+    "carbs": 11
+  },
+  {
+    "name": "Néctar de pêssego",
+    "carbs": 11.7
+  },
+  {
+    "name": "Néctar de pêssego, \"light",
+    "carbs": 3.5
+  },
+  {
+    "name": "Nectarina",
+    "carbs": 8.7
+  },
+  {
+    "name": "Nêspera",
+    "carbs": 10.2
+  },
+  {
+    "name": "Noz, miolo",
+    "carbs": 3.6
+  },
+  {
+    "name": "Óleo \"Becel",
+    "carbs": 0
+  },
+  {
+    "name": "Óleo alimentar",
+    "carbs": 0
+  },
+  {
+    "name": "Óleo de amendoim",
+    "carbs": 0
+  },
+  {
+    "name": "Óleo de girassol",
+    "carbs": 0
+  },
+  {
+    "name": "Óleo de palma",
+    "carbs": 0
+  },
+  {
+    "name": "Óleo de soja",
+    "carbs": 0
+  },
+  {
+    "name": "Óleos de milho",
+    "carbs": 0
+  },
+  {
+    "name": "Omelete",
+    "carbs": 0.2
+  },
+  {
+    "name": "Omoleta com manteiga",
+    "carbs": 0
+  },
+  {
+    "name": "Omoleta com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Ostra, crua",
+    "carbs": 3.9
+  },
+  {
+    "name": "Ovo (de galinha) cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha) escalfado",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha) estrelado com azeite",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha) estrelado com manteiga",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha) estrelado com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha) inteiro cru",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha) líquido pasteurizado",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha) mexido com manteiga",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha) mexido com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha), clara crua",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo (de galinha), gema crua",
+    "carbs": 0
+  },
+  {
+    "name": "Ovo mexido com leite e margarina",
+    "carbs": 0.9
+  },
+  {
+    "name": "Pá de carneiro assada com azeite e margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Pá de carneiro assada com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Pá de carneiro assada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Pá de carneiro cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Pá de carneiro crua",
+    "carbs": 0
+  },
+  {
+    "name": "Pá de carneiro estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Paio de lombo",
+    "carbs": 0
+  },
+  {
+    "name": "Paio de lombo entremeado",
+    "carbs": 0
+  },
+  {
+    "name": "Pão-de-ló",
+    "carbs": 62.2
+  },
+  {
+    "name": "Pão de centeio",
+    "carbs": 56.4
+  },
+  {
+    "name": "Pão de centeio integral",
+    "carbs": 41.3
+  },
+  {
+    "name": "Pão de forma, de trigo com passas",
+    "carbs": 58.3
+  },
+  {
+    "name": "Pão de forma, de trigo enriquecido",
+    "carbs": 54.5
+  },
+  {
+    "name": "Pão de leite (trigo)",
+    "carbs": 51.4
+  },
+  {
+    "name": "Pão de milho",
+    "carbs": 37.2
+  },
+  {
+    "name": "Pão de mistura de trigo e centeio",
+    "carbs": 53.8
+  },
+  {
+    "name": "Pão de trigo",
+    "carbs": 57.3
+  },
+  {
+    "name": "Pão de trigo integral",
+    "carbs": 39.9
+  },
+  {
+    "name": "Pão de trigo integral com passas",
+    "carbs": 44
+  },
+  {
+    "name": "Pão de trigo integral com sementes de sésamo",
+    "carbs": 43.2
+  },
+  {
+    "name": "Pão de trigo integral com soja",
+    "carbs": 38.2
+  },
+  {
+    "name": "Pão do coração (trigo)",
+    "carbs": 51
+  },
+  {
+    "name": "Pão ralado",
+    "carbs": 71.6
+  },
+  {
+    "name": "Papaia",
+    "carbs": 9.1
+  },
+  {
+    "name": "Pargo legítimo assado com cebola, tomate e azeite",
+    "carbs": 1.4
+  },
+  {
+    "name": "Pargo legítimo cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Pargo legítimo cru",
+    "carbs": 0
+  },
+  {
+    "name": "Pargo mulato assado com cebola, tomate e azeite",
+    "carbs": 1.4
+  },
+  {
+    "name": "Pargo mulato cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Pargo mulato cru",
+    "carbs": 0
+  },
+  {
+    "name": "Pasta de fígado de porco (paté)",
+    "carbs": 3.2
+  },
+  {
+    "name": "Pastel de bacalhau",
+    "carbs": 12.3
+  },
+  {
+    "name": "Pastel de feijão",
+    "carbs": 52
+  },
+  {
+    "name": "Pastel de nata",
+    "carbs": 48.5
+  },
+  {
+    "name": "Pastel folhado",
+    "carbs": 37.4
+  },
+  {
+    "name": "Pastilha elástica",
+    "carbs": 75.1
+  },
+  {
+    "name": "Pato com pele assado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Pato com pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Pato sem pele assado com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Pato sem pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Pato sem pele estufado com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de cabrito cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de cabrito estufado com azeite e margarina",
+    "carbs": 0.8
+  },
+  {
+    "name": "Peito de cabrito estufado com azeite e óleo alimentar",
+    "carbs": 0.7
+  },
+  {
+    "name": "Peito de cabrito estufado com manteiga e óleo alimentar",
+    "carbs": 0.8
+  },
+  {
+    "name": "Peito de cabrito estufado com margarina e óleo alimentar",
+    "carbs": 0.8
+  },
+  {
+    "name": "Peito de cabrito estufado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de cabrito grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de carneiro gordo cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de carneiro gordo cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de frango com pele cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de frango com pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de frango com pele estufado com azeite e margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Peito de frango com pele estufado com margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Peito de frango com pele estufado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de frango sem pele cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de frango sem pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de frango sem pele estufado com azeite e margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Peito de frango sem pele estufado com margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Peito de frango sem pele estufado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de peru com pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de peru com pele, estufado com margarina",
+    "carbs": 1.3
+  },
+  {
+    "name": "Peito de peru sem pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de peru sem pele panado",
+    "carbs": 8.4
+  },
+  {
+    "name": "Peito de peru sem pele, assado com margarina",
+    "carbs": 0.1
+  },
+  {
+    "name": "Peito de vitela magro cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de vitela magro cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peito de vitela magro estufado com azeite e margarina",
+    "carbs": 0.6
+  },
+  {
+    "name": "Peito de vitela magro estufado com azeite, margarina e óleo alimentar",
+    "carbs": 0.6
+  },
+  {
+    "name": "Peito de vitela magro estufado com margarina e óleo alimentar",
+    "carbs": 0.6
+  },
+  {
+    "name": "Peito de vitela magro estufado, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Peixe-espada-branco cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peixe-espada-branco frito",
+    "carbs": 2.9
+  },
+  {
+    "name": "Peixe-espada-branco grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Peixe-espada-preto cru",
+    "carbs": 0
+  },
+  {
+    "name": "Peixe-espada-preto frito",
+    "carbs": 3.2
+  },
+  {
+    "name": "Peixe-espada-preto grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Peixe vermelho no forno",
+    "carbs": 1.1
+  },
+  {
+    "name": "Peixinhos da horta",
+    "carbs": 14.9
+  },
+  {
+    "name": "Pepino cru",
+    "carbs": 1.7
+  },
+  {
+    "name": "Pera (5 variedades)",
+    "carbs": 9.4
+  },
+  {
+    "name": "Pera conserva em calda de açúcar",
+    "carbs": 28.9
+  },
+  {
+    "name": "Pera cozida com açúcar",
+    "carbs": 14.5
+  },
+  {
+    "name": "Pera cozida sem açúcar",
+    "carbs": 7.8
+  },
+  {
+    "name": "Pera cristalizada",
+    "carbs": 69.8
+  },
+  {
+    "name": "Perdiz crua",
+    "carbs": 0
+  },
+  {
+    "name": "Perdiz estufada com margarina",
+    "carbs": 0.7
+  },
+  {
+    "name": "Perna de borrego no forno",
+    "carbs": 0.4
+  },
+  {
+    "name": "Perna de cabrito assada com azeite e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Perna de cabrito assada com óleo alimentar e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Perna de cabrito assada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de cabrito crua",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de carneiro gorda assada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de carneiro gorda crua",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de carneiro gorda estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de carneiro magra assada com azeite e margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de carneiro magra assada com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de carneiro magra assada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de carneiro magra crua",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de carneiro magra estufada com azeite e margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Perna de carneiro magra estufada com margarina",
+    "carbs": 1.7
+  },
+  {
+    "name": "Perna de carneiro magra estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de frango sem pele cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de frango sem pele crua",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de frango sem pele estufada com azeite e margarina",
+    "carbs": 1.6
+  },
+  {
+    "name": "Perna de frango sem pele estufada com margarina",
+    "carbs": 1.6
+  },
+  {
+    "name": "Perna de frango sem pele estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de peru com pele crua",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de peru com pele, assada com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de peru com pele, estufada com margarina",
+    "carbs": 1.3
+  },
+  {
+    "name": "Perna de porco gorda assada com azeite e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Perna de porco gorda assada com margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Perna de porco gorda assada com óleo alimentar e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Perna de porco gorda assada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de porco gorda crua",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de porco gorda grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de porco magra assada com azeite e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Perna de porco magra assada com margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Perna de porco magra assada com óleo alimentar e margarina",
+    "carbs": 0.2
+  },
+  {
+    "name": "Perna de porco magra assada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de porco magra crua",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de porco magra estufada com azeite e banha",
+    "carbs": 0.7
+  },
+  {
+    "name": "Perna de porco magra estufada com azeite e margarina",
+    "carbs": 0.7
+  },
+  {
+    "name": "Perna de porco magra estufada com margarina",
+    "carbs": 0.7
+  },
+  {
+    "name": "Perna de porco magra estufada com óleo alimentar e banha",
+    "carbs": 0.7
+  },
+  {
+    "name": "Perna de porco magra estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Perna de porco magra grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Peru inteiro com pele cru",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada cozida (valor médio)",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada crua (valor médio)",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada da África do Sul cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada da África do Sul crua",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada da África do Sul frita",
+    "carbs": 1.7
+  },
+  {
+    "name": "Pescada do Chile cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada do Chile crua",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada do Chile frita",
+    "carbs": 2.6
+  },
+  {
+    "name": "Pescada europeia cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada europeia crua",
+    "carbs": 0
+  },
+  {
+    "name": "Pescada europeia frita",
+    "carbs": 1.4
+  },
+  {
+    "name": "Pescada frita (valor médio)",
+    "carbs": 2.1
+  },
+  {
+    "name": "Pêssego (2 variedades)",
+    "carbs": 8.1
+  },
+  {
+    "name": "Pêssego, conserva em calda de açúcar",
+    "carbs": 20.6
+  },
+  {
+    "name": "Picanha grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Pimenta moída",
+    "carbs": 38.3
+  },
+  {
+    "name": "Pimento cru",
+    "carbs": 2.7
+  },
+  {
+    "name": "Pimento grelhado",
+    "carbs": 3.7
+  },
+  {
+    "name": "Pinhão, miolo",
+    "carbs": 5
+  },
+  {
+    "name": "Pistácio torrado e salgado",
+    "carbs": 12.6
+  },
+  {
+    "name": "Pizza - massa",
+    "carbs": 59.8
+  },
+  {
+    "name": "Pizza de fiambre e ananás - massa",
+    "carbs": 63.4
+  },
+  {
+    "name": "Pizza de fiambre e ananás - recheio",
+    "carbs": 3.9
+  },
+  {
+    "name": "Pizza de frango - massa",
+    "carbs": 50.7
+  },
+  {
+    "name": "Pizza de frango - recheio",
+    "carbs": 1.4
+  },
+  {
+    "name": "Pizza de queijo e tomate",
+    "carbs": 33.2
+  },
+  {
+    "name": "Pizza de queijo, tomate e fiambre",
+    "carbs": 29.2
+  },
+  {
+    "name": "Pó achocolatado com alto teor de gordura",
+    "carbs": 70.6
+  },
+  {
+    "name": "Pó achocolatado com baixo teor de gordura",
+    "carbs": 86.2
+  },
+  {
+    "name": "Polvo cozido sem sal",
+    "carbs": 0
+  },
+  {
+    "name": "Polvo cru",
+    "carbs": 0
+  },
+  {
+    "name": "Presunto",
+    "carbs": 0
+  },
+  {
+    "name": "Pudim de leite e ovos",
+    "carbs": 44.8
+  },
+  {
+    "name": "Pudim flan caseiro",
+    "carbs": 36.3
+  },
+  {
+    "name": "Pudim instantâneo em pó",
+    "carbs": 79.4
+  },
+  {
+    "name": "Pudim instantâneo preparado com leite magro",
+    "carbs": 18.3
+  },
+  {
+    "name": "Pudim instantâneo preparado com leite meio gordo",
+    "carbs": 18.3
+  },
+  {
+    "name": "Puré de batata",
+    "carbs": 16.8
+  },
+  {
+    "name": "Queijada de queijo fresco",
+    "carbs": 56.7
+  },
+  {
+    "name": "Queijada de queijo magro",
+    "carbs": 55.4
+  },
+  {
+    "name": "Queijada de requeijão",
+    "carbs": 40.8
+  },
+  {
+    "name": "Queijo \"Camembert\" Nacional",
+    "carbs": 0.2
+  },
+  {
+    "name": "Queijo \"Emmental",
+    "carbs": 0
+  },
+  {
+    "name": "Queijo \"quark\" açucarado magro com sabor a fruta",
+    "carbs": 10.8
+  },
+  {
+    "name": "Queijo \"quark\" natural magro",
+    "carbs": 4
+  },
+  {
+    "name": "Queijo \"quark\" natural meio gordo",
+    "carbs": 3.9
+  },
+  {
+    "name": "Queijo \"Roquefort",
+    "carbs": 0.2
+  },
+  {
+    "name": "Queijo creme para barrar",
+    "carbs": 6.9
+  },
+  {
+    "name": "Queijo da Ilha",
+    "carbs": 0.2
+  },
+  {
+    "name": "Queijo da Serra curado",
+    "carbs": 0.2
+  },
+  {
+    "name": "Queijo da Serra fresco",
+    "carbs": 0.2
+  },
+  {
+    "name": "Queijo de Alcobaça",
+    "carbs": 1.5
+  },
+  {
+    "name": "Queijo de Alverca curado",
+    "carbs": 1
+  },
+  {
+    "name": "Queijo de Alverca fresco",
+    "carbs": 1.5
+  },
+  {
+    "name": "Queijo de Azeitão",
+    "carbs": 0.1
+  },
+  {
+    "name": "Queijo de Évora",
+    "carbs": 1.3
+  },
+  {
+    "name": "Queijo de Serpa",
+    "carbs": 0.3
+  },
+  {
+    "name": "Queijo flamengo 30% gordura",
+    "carbs": 0.2
+  },
+  {
+    "name": "Queijo flamengo 45% gordura",
+    "carbs": 0.2
+  },
+  {
+    "name": "Queijo fresco açucarado com sabor a fruta",
+    "carbs": 11.6
+  },
+  {
+    "name": "Queijo fundido 40% gordura",
+    "carbs": 0.2
+  },
+  {
+    "name": "Queijo parmesão",
+    "carbs": 0.1
+  },
+  {
+    "name": "Queque",
+    "carbs": 53.8
+  },
+  {
+    "name": "Quiche de espinafres",
+    "carbs": 12.4
+  },
+  {
+    "name": "Quiche de frango - massa",
+    "carbs": 42.3
+  },
+  {
+    "name": "Quiche de frango - recheio",
+    "carbs": 9.5
+  },
+  {
+    "name": "Quiche de vegetais",
+    "carbs": 12.9
+  },
+  {
+    "name": "Quiche lorraine",
+    "carbs": 23.5
+  },
+  {
+    "name": "Quiche lorraine - massa",
+    "carbs": 53.3
+  },
+  {
+    "name": "Quiche lorraine - recheio",
+    "carbs": 2.5
+  },
+  {
+    "name": "Quivi, \"Kiwi",
+    "carbs": 10.9
+  },
+  {
+    "name": "Rabanada",
+    "carbs": 31.3
+  },
+  {
+    "name": "Rabanete cru",
+    "carbs": 1.9
+  },
+  {
+    "name": "Raia crua",
+    "carbs": 0
+  },
+  {
+    "name": "Rancho com carne de galinha, porco e vaca",
+    "carbs": 6.5
+  },
+  {
+    "name": "Rancho com carne de porco",
+    "carbs": 6.8
+  },
+  {
+    "name": "Rebuçados",
+    "carbs": 95
+  },
+  {
+    "name": "Requeijão 13% de proteína",
+    "carbs": 5.1
+  },
+  {
+    "name": "Requeijão 8% de proteína",
+    "carbs": 4.1
+  },
+  {
+    "name": "Rim de carneiro, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Rim de carneiro, frito com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Rim de porco, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Rim de porco, frito com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Rim de vaca, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Rissol",
+    "carbs": 31.8
+  },
+  {
+    "name": "Rissol de camarão",
+    "carbs": 26.6
+  },
+  {
+    "name": "Rissol de camarão - massa",
+    "carbs": 36.5
+  },
+  {
+    "name": "Rissol de camarão - recheio",
+    "carbs": 11.4
+  },
+  {
+    "name": "Rissol de carne com manteiga",
+    "carbs": 4.1
+  },
+  {
+    "name": "Rissol de carne com margarina",
+    "carbs": 4.1
+  },
+  {
+    "name": "Rissol de pescada - massa",
+    "carbs": 37.1
+  },
+  {
+    "name": "Rissol de pescada - recheio",
+    "carbs": 5.3
+  },
+  {
+    "name": "Robalo assado com cebola, azeite, banha e manteiga",
+    "carbs": 0.6
+  },
+  {
+    "name": "Robalo cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Robalo cru",
+    "carbs": 0
+  },
+  {
+    "name": "Robalo grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Rojões de carne gorda",
+    "carbs": 0.8
+  },
+  {
+    "name": "Rojões de carne magra",
+    "carbs": 8.7
+  },
+  {
+    "name": "Romã",
+    "carbs": 12
+  },
+  {
+    "name": "Safio",
+    "carbs": 7.5
+  },
+  {
+    "name": "Safio cru",
+    "carbs": 0
+  },
+  {
+    "name": "Sal",
+    "carbs": 0
+  },
+  {
+    "name": "Salada de alface e tomate",
+    "carbs": 2.6
+  },
+  {
+    "name": "Salada de atum",
+    "carbs": 8.4
+  },
+  {
+    "name": "Salada de bacalhau com grão",
+    "carbs": 7.6
+  },
+  {
+    "name": "Salada russa",
+    "carbs": 5.6
+  },
+  {
+    "name": "Salame",
+    "carbs": 1.3
+  },
+  {
+    "name": "Salmão cozido",
+    "carbs": 0
+  },
+  {
+    "name": "Salmão cru",
+    "carbs": 0
+  },
+  {
+    "name": "Salmão grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Salpicão",
+    "carbs": 0
+  },
+  {
+    "name": "Salsa crua",
+    "carbs": 0.4
+  },
+  {
+    "name": "Salsicha fresca crua",
+    "carbs": 0
+  },
+  {
+    "name": "Salsicha fresca estufada com couve e azeite",
+    "carbs": 1.1
+  },
+  {
+    "name": "Salsicha fresca estufada com legumes e azeite",
+    "carbs": 3.7
+  },
+  {
+    "name": "Salsicha tipo Frankfurt",
+    "carbs": 2.4
+  },
+  {
+    "name": "Salsicha tipo Frankfurt frita (escorrido o óleo) sem adição de sal",
+    "carbs": 2.8
+  },
+  {
+    "name": "Salsicha tipo Frankfurt grelhada sem adição de sal",
+    "carbs": 3.2
+  },
+  {
+    "name": "Sarda cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Sarda crua",
+    "carbs": 0
+  },
+  {
+    "name": "Sarda grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Sardinha frita",
+    "carbs": 8.7
+  },
+  {
+    "name": "Sardinha gorda crua",
+    "carbs": 0
+  },
+  {
+    "name": "Sardinha gorda frita",
+    "carbs": 3.5
+  },
+  {
+    "name": "Sardinha gorda grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Sardinha grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Sardinha meio gorda conserva em água, sem espinha e sem pele",
+    "carbs": 0
+  },
+  {
+    "name": "Sardinha meio gorda conserva em azeite",
+    "carbs": 0
+  },
+  {
+    "name": "Sardinha meio gorda conserva em azeite (escorrido)",
+    "carbs": 0
+  },
+  {
+    "name": "Sardinha meio gorda crua",
+    "carbs": 0
+  },
+  {
+    "name": "Sardinha meio gorda frita",
+    "carbs": 0.5
+  },
+  {
+    "name": "Sardinha meio gorda grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Sidra (vinho de maçã)",
+    "carbs": 2.3
+  },
+  {
+    "name": "Soja cozida sem sal",
+    "carbs": 5.6
+  },
+  {
+    "name": "Soja, farinha com baixo teor de gordura",
+    "carbs": 21.8
+  },
+  {
+    "name": "Soja, grão seco, cru",
+    "carbs": 18.3
+  },
+  {
+    "name": "Solha crua",
+    "carbs": 0
+  },
+  {
+    "name": "Solha frita",
+    "carbs": 8.9
+  },
+  {
+    "name": "Solha grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Sonhos",
+    "carbs": 29.2
+  },
+  {
+    "name": "Sopa à lavrador",
+    "carbs": 7.6
+  },
+  {
+    "name": "Sopa de abóbora",
+    "carbs": 4
+  },
+  {
+    "name": "Sopa de agrião",
+    "carbs": 4.2
+  },
+  {
+    "name": "Sopa de agrião com leite",
+    "carbs": 5.2
+  },
+  {
+    "name": "Sopa de agrião com requeijão",
+    "carbs": 2
+  },
+  {
+    "name": "Sopa de carne",
+    "carbs": 7.3
+  },
+  {
+    "name": "Sopa de cebola",
+    "carbs": 5.4
+  },
+  {
+    "name": "Sopa de cenoura",
+    "carbs": 4.4
+  },
+  {
+    "name": "Sopa de couve branca",
+    "carbs": 5.4
+  },
+  {
+    "name": "Sopa de couve lombarda",
+    "carbs": 5.3
+  },
+  {
+    "name": "Sopa de cozido",
+    "carbs": 2.9
+  },
+  {
+    "name": "Sopa de ervilhas",
+    "carbs": 6.4
+  },
+  {
+    "name": "Sopa de espinafres",
+    "carbs": 4.8
+  },
+  {
+    "name": "Sopa de espinafres com ovos",
+    "carbs": 4.7
+  },
+  {
+    "name": "Sopa de favas",
+    "carbs": 6.4
+  },
+  {
+    "name": "Sopa de feijão",
+    "carbs": 4.1
+  },
+  {
+    "name": "Sopa de feijão branco com couve portuguesa",
+    "carbs": 4.9
+  },
+  {
+    "name": "Sopa de feijão manteiga",
+    "carbs": 8.7
+  },
+  {
+    "name": "Sopa de feijão manteiga com couve lombarda",
+    "carbs": 3.5
+  },
+  {
+    "name": "Sopa de feijão verde",
+    "carbs": 5.8
+  },
+  {
+    "name": "Sopa de feijão verde com nabo",
+    "carbs": 3.4
+  },
+  {
+    "name": "Sopa de feijão verde sem cenoura",
+    "carbs": 3.5
+  },
+  {
+    "name": "Sopa de grão à moda da avó",
+    "carbs": 15.1
+  },
+  {
+    "name": "Sopa de grão com espinafres",
+    "carbs": 7
+  },
+  {
+    "name": "Sopa de grão com espinafres e coentros",
+    "carbs": 5.3
+  },
+  {
+    "name": "Sopa de grão com espinafres sem arroz",
+    "carbs": 5.1
+  },
+  {
+    "name": "Sopa de nabiças (ou de grelos de nabo)",
+    "carbs": 5.8
+  },
+  {
+    "name": "Sopa de peixe",
+    "carbs": 1.3
+  },
+  {
+    "name": "Sopa de peixe com massa",
+    "carbs": 5.8
+  },
+  {
+    "name": "Sopa de tomate",
+    "carbs": 4.4
+  },
+  {
+    "name": "Sopa de vegetais",
+    "carbs": 1.2
+  },
+  {
+    "name": "Sopa juliana",
+    "carbs": 4.3
+  },
+  {
+    "name": "Sopa, caldo verde",
+    "carbs": 5.3
+  },
+  {
+    "name": "Sopa, canja de galinha",
+    "carbs": 5.8
+  },
+  {
+    "name": "Sopa, creme de cenoura",
+    "carbs": 4.4
+  },
+  {
+    "name": "Sopa, puré de feijão",
+    "carbs": 4.4
+  },
+  {
+    "name": "Sopa, puré de vegetais",
+    "carbs": 5.5
+  },
+  {
+    "name": "Sucedâneo de café (pó) (2 marcas)",
+    "carbs": 81
+  },
+  {
+    "name": "Sucedâneo de café (pó) com 20% de café",
+    "carbs": 77
+  },
+  {
+    "name": "Sumo de ananás, 100%",
+    "carbs": 9.5
+  },
+  {
+    "name": "Sumo de ananás, concentrado",
+    "carbs": 64.7
+  },
+  {
+    "name": "Sumo de laranja, 100%",
+    "carbs": 9.5
+  },
+  {
+    "name": "Sumo de laranja, concentrado",
+    "carbs": 64.9
+  },
+  {
+    "name": "Sumo de limão, fresco (espremido)",
+    "carbs": 1.5
+  },
+  {
+    "name": "Sumo de maçã, 100%",
+    "carbs": 9.9
+  },
+  {
+    "name": "Sumo de pêssego, 100%",
+    "carbs": 11.5
+  },
+  {
+    "name": "Sumo de tomate, 100%",
+    "carbs": 3.5
+  },
+  {
+    "name": "Tâmara seca",
+    "carbs": 67.3
+  },
+  {
+    "name": "Tamboril cru",
+    "carbs": 0
+  },
+  {
+    "name": "Tamboril grelhado",
+    "carbs": 0
+  },
+  {
+    "name": "Tângera",
+    "carbs": 7.8
+  },
+  {
+    "name": "Tangerina",
+    "carbs": 8.7
+  },
+  {
+    "name": "Tapioca",
+    "carbs": 87.5
+  },
+  {
+    "name": "Tarte de maçã",
+    "carbs": 29.3
+  },
+  {
+    "name": "Tarte de maçã e pêssego",
+    "carbs": 36.7
+  },
+  {
+    "name": "Tarte de maçã e pêssego - massa",
+    "carbs": 53.1
+  },
+  {
+    "name": "Tarte de maçã e pêssego - recheio \"leite-creme",
+    "carbs": 23.3
+  },
+  {
+    "name": "Tarte de maçã e pêssego - recheio de maçã e amêndoa",
+    "carbs": 21.1
+  },
+  {
+    "name": "Tarte de maçã e pêssego - recheio de maçã e pêssego",
+    "carbs": 10.7
+  },
+  {
+    "name": "Tofu frito com azeite",
+    "carbs": 1.1
+  },
+  {
+    "name": "Tofu frito com óleo de milho",
+    "carbs": 1.1
+  },
+  {
+    "name": "Tofu simples",
+    "carbs": 0.7
+  },
+  {
+    "name": "Tomate cru",
+    "carbs": 3.5
+  },
+  {
+    "name": "Tomate em conserva ao natural",
+    "carbs": 3.2
+  },
+  {
+    "name": "Toranja",
+    "carbs": 6
+  },
+  {
+    "name": "Torta de chocolate e chantilly",
+    "carbs": 29.6
+  },
+  {
+    "name": "Tosta de trigo integral",
+    "carbs": 62.6
+  },
+  {
+    "name": "Tosta de trigo sem sal",
+    "carbs": 72.7
+  },
+  {
+    "name": "Tosta de trigo simples",
+    "carbs": 72.7
+  },
+  {
+    "name": "Toucinho  de porco entremeado ligeiramente salgado, cozido sem adição de sal",
+    "carbs": 0
+  },
+  {
+    "name": "Toucinho de porco entremeado fresco cru",
+    "carbs": 0
+  },
+  {
+    "name": "Toucinho de porco entremeado fresco, grelhado sem adição de sal",
+    "carbs": 0
+  },
+  {
+    "name": "Toucinho de porco entremeado ligeiramente salgado, cru",
+    "carbs": 0
+  },
+  {
+    "name": "Tremoço, cozido e salgado",
+    "carbs": 7.2
+  },
+  {
+    "name": "Truta arco-íris crua",
+    "carbs": 0
+  },
+  {
+    "name": "Truta arco-íris grelhada",
+    "carbs": 0
+  },
+  {
+    "name": "Túbera (trufa) crua",
+    "carbs": 14.5
+  },
+  {
+    "name": "Uva branca (5 variedades)",
+    "carbs": 17.3
+  },
+  {
+    "name": "Uva seca (passas)",
+    "carbs": 67
+  },
+  {
+    "name": "Uva tinta (5 variedades)",
+    "carbs": 18.6
+  },
+  {
+    "name": "Vaca assada com azeite e margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca assada com margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca assada com óleo alimentar e margarina",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca assada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca magra cozida",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca magra estufada à jardineira",
+    "carbs": 11.4
+  },
+  {
+    "name": "Vaca magra estufada com azeite e margarina",
+    "carbs": 1.2
+  },
+  {
+    "name": "Vaca magra estufada com margarina",
+    "carbs": 1.2
+  },
+  {
+    "name": "Vaca magra estufada com óleo alimentar e margarina",
+    "carbs": 1.2
+  },
+  {
+    "name": "Vaca magra estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca meio gorda estufada com azeite e margarina",
+    "carbs": 1.2
+  },
+  {
+    "name": "Vaca meio gorda estufada com margarina",
+    "carbs": 1.2
+  },
+  {
+    "name": "Vaca meio gorda estufada com óleo alimentar e margarina",
+    "carbs": 1.2
+  },
+  {
+    "name": "Vaca meio gorda estufada, sem molho",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca para assar crua",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca para cozer ou estufar magra crua",
+    "carbs": 0
+  },
+  {
+    "name": "Vaca para cozer ou estufar meio gorda crua",
+    "carbs": 0
+  },
+  {
+    "name": "Vinagre",
+    "carbs": 0.6
+  },
+  {
+    "name": "Vinho espumante doce",
+    "carbs": 12
+  },
+  {
+    "name": "Vinho espumante extra bruto",
+    "carbs": 0.1
+  },
+  {
+    "name": "Vinho espumante meio Seco",
+    "carbs": 4.2
+  },
+  {
+    "name": "Vinho espumante seco",
+    "carbs": 2.6
+  },
+  {
+    "name": "Vinho generoso da Madeira",
+    "carbs": 9
+  },
+  {
+    "name": "Vinho generoso do Porto, doce",
+    "carbs": 14
+  },
+  {
+    "name": "Vinho generoso do Porto, meio seco",
+    "carbs": 6.5
+  },
+  {
+    "name": "Vinho generoso do Porto, seco",
+    "carbs": 4
+  },
+  {
+    "name": "Vinho maduro branco",
+    "carbs": 1.2
+  },
+  {
+    "name": "Vinho maduro palhete",
+    "carbs": 0.1
+  },
+  {
+    "name": "Vinho maduro tinto",
+    "carbs": 0.2
+  },
+  {
+    "name": "Vinho rosé",
+    "carbs": 2.4
+  },
+  {
+    "name": "Vinho verde branco",
+    "carbs": 0.1
+  },
+  {
+    "name": "Vinho verde tinto",
+    "carbs": 0.3
+  }
+]

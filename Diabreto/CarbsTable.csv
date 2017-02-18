@@ -1,8 +1,8 @@
-Nome do alimento,Hidratos de carbono (CHO)
-"""Donut""",43
-"""Donut"" recheado com doce de fruta",47
-"""Shortening"" para pastelaria",0
-"""Shortening"" para restaurante",0
+name,carbs
+Donut,43
+Donut recheado com doce de fruta,47
+Shortening para pastelaria,0
+Shortening para restaurante,0
 Abacate,2.3
 Abóbora cristalizada,72.4
 Abóbora crua,1.7

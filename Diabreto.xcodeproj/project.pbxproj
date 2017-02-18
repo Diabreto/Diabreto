@@ -7,20 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9635B4011E57FE9700FC89D0 /* carbstable.json in Resources */ = {isa = PBXBuildFile; fileRef = 9635B4001E57FE9700FC89D0 /* carbstable.json */; };
+		964FDB261E57EA0D0049D329 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FDB251E57EA0D0049D329 /* Food.swift */; };
 		96777BB21E575F01005544B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96777BB11E575F01005544B4 /* AppDelegate.swift */; };
 		96777BB41E575F01005544B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96777BB31E575F01005544B4 /* MainViewController.swift */; };
 		96777BB71E575F01005544B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96777BB51E575F01005544B4 /* Main.storyboard */; };
 		96777BB91E575F01005544B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96777BB81E575F01005544B4 /* Assets.xcassets */; };
 		96777BBC1E575F01005544B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96777BBA1E575F01005544B4 /* LaunchScreen.storyboard */; };
-		B2F003E572F8FCDE0A23F51D /* Pods_Diabreto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9A1AC3BEC003E2E029E50B /* Pods_Diabreto.framework */; };
 		96777BC41E5785B6005544B4 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96777BC31E5785B6005544B4 /* RecordViewController.swift */; };
-		96777BC61E57DBAD005544B4 /* TabelaRicardoJorge-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96777BC51E57DBAD005544B4 /* TabelaRicardoJorge-1.csv */; };
+		96777BC61E57DBAD005544B4 /* CarbsTable.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96777BC51E57DBAD005544B4 /* CarbsTable.csv */; };
+		96BA3ACF1E58555300111DF0 /* CarbsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA3ACE1E58555300111DF0 /* CarbsTableViewController.swift */; };
+		B2F003E572F8FCDE0A23F51D /* Pods_Diabreto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9A1AC3BEC003E2E029E50B /* Pods_Diabreto.framework */; };
 		D26588171E577B3B00A20F04 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26588161E577B3B00A20F04 /* ProfileViewController.swift */; };
 		D26588191E577B6E00A20F04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26588181E577B6E00A20F04 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D9A1AC3BEC003E2E029E50B /* Pods_Diabreto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diabreto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9635B4001E57FE9700FC89D0 /* carbstable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carbstable.json; sourceTree = "<group>"; };
+		964FDB251E57EA0D0049D329 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		96777BAE1E575F01005544B4 /* Diabreto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diabreto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96777BB11E575F01005544B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96777BB31E575F01005544B4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -28,10 +33,11 @@
 		96777BB81E575F01005544B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96777BBB1E575F01005544B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96777BBD1E575F01005544B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96777BC31E5785B6005544B4 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		96777BC51E57DBAD005544B4 /* CarbsTable.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CarbsTable.csv; path = Diabreto/CarbsTable.csv; sourceTree = "<group>"; };
+		96BA3ACE1E58555300111DF0 /* CarbsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsTableViewController.swift; sourceTree = "<group>"; };
 		A97845119DD6AFED5C854A28 /* Pods-Diabreto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabreto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diabreto/Pods-Diabreto.debug.xcconfig"; sourceTree = "<group>"; };
 		CE60312E92EC127EAF8A77C0 /* Pods-Diabreto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabreto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diabreto/Pods-Diabreto.release.xcconfig"; sourceTree = "<group>"; };
-		96777BC31E5785B6005544B4 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
-		96777BC51E57DBAD005544B4 /* TabelaRicardoJorge-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TabelaRicardoJorge-1.csv"; sourceTree = "<group>"; };
 		D26588161E577B3B00A20F04 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D26588181E577B6E00A20F04 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +65,8 @@
 		96777BA51E575F00005544B4 = {
 			isa = PBXGroup;
 			children = (
+				96777BC51E57DBAD005544B4 /* CarbsTable.csv */,
+				9635B4001E57FE9700FC89D0 /* carbstable.json */,
 				96777BB01E575F01005544B4 /* Diabreto */,
 				96777BAF1E575F01005544B4 /* Products */,
 				F0C9C61705241AC776DAF5A2 /* Pods */,
@@ -77,10 +85,11 @@
 		96777BB01E575F01005544B4 /* Diabreto */ = {
 			isa = PBXGroup;
 			children = (
-				96777BC51E57DBAD005544B4 /* TabelaRicardoJorge-1.csv */,
 				96777BB11E575F01005544B4 /* AppDelegate.swift */,
 				96777BB31E575F01005544B4 /* MainViewController.swift */,
 				96777BB51E575F01005544B4 /* Main.storyboard */,
+				96BA3ACE1E58555300111DF0 /* CarbsTableViewController.swift */,
+				964FDB251E57EA0D0049D329 /* Food.swift */,
 				96777BB81E575F01005544B4 /* Assets.xcassets */,
 				96777BBA1E575F01005544B4 /* LaunchScreen.storyboard */,
 				96777BBD1E575F01005544B4 /* Info.plist */,
@@ -162,7 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96777BC61E57DBAD005544B4 /* TabelaRicardoJorge-1.csv in Resources */,
+				9635B4011E57FE9700FC89D0 /* carbstable.json in Resources */,
+				96777BC61E57DBAD005544B4 /* CarbsTable.csv in Resources */,
 				96777BBC1E575F01005544B4 /* LaunchScreen.storyboard in Resources */,
 				96777BB91E575F01005544B4 /* Assets.xcassets in Resources */,
 				96777BB71E575F01005544B4 /* Main.storyboard in Resources */,
@@ -224,6 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964FDB261E57EA0D0049D329 /* Food.swift in Sources */,
+				96BA3ACF1E58555300111DF0 /* CarbsTableViewController.swift in Sources */,
 				D26588171E577B3B00A20F04 /* ProfileViewController.swift in Sources */,
 				96777BB41E575F01005544B4 /* MainViewController.swift in Sources */,
 				96777BC41E5785B6005544B4 /* RecordViewController.swift in Sources */,

@@ -1,9 +1,10 @@
 import UIKit
 
-class RecordViewController: UIViewController {
-
+class RecordViewController: UIViewController, ChooseCarbsDelegate {
     @IBOutlet weak var dateTextField: UITextField!
     @IBOutlet weak var notesTextField: UITextView!
+    
+    var selectedFoovar = [Food]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +35,15 @@ class RecordViewController: UIViewController {
             #selector(RecordViewController.datePickerValueChanged),
             for: UIControlEvents.valueChanged
         )
+    }
+    
+    func selectCells(cell: [Food]) {
+        print(cell.count)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destViewController = segue.destination as! CarbsTableViewController
+        destViewController.delegate = self
     }
     
     func datePickerValueChanged(sender:UIDatePicker) { dateTextField.text = dateFormatter(date: sender.date) }
