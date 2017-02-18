@@ -1,15 +1,22 @@
 PODS:
   - Alamofire (4.3.0)
+  - Alamofire-Synchronous (4.0.0):
+    - Alamofire (~> 4.0)
+  - ScrollableGraphView (3.1.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.3)
+  - Alamofire-Synchronous (~> 4.0)
+  - ScrollableGraphView
   - SwiftyJSON (~> 3.1)
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Alamofire-Synchronous: eedf1e6e961c3795a63c74990b3f7d9fbfac7e50
+  ScrollableGraphView: e2c8bedc7bbb643e8ac57b9456070d68355c4e4c
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 3ea3ece74a875ad053a80c6e6d1ff9a850d469e5
+PODFILE CHECKSUM: ae588bb0ea1e58cdabe36b69c1b070677c9dfc27
 
 COCOAPODS: 1.2.0

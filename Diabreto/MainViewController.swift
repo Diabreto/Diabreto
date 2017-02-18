@@ -7,17 +7,32 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func loginButtonClick(_ sender: Any) {
+        let response: DataResponse<Any> = User.login()
+        
+        let jsonResponse = JSON(response.result.value!)
+        if (response.result.isFailure || !jsonResponse["errors"].isEmpty) {
+            print("Login errror")
+            return
+        }
+        
+        // Save user locally
+        AppDelegate.database.currentUser.localUpdate(attrs: jsonResponse["data"]["user"])
+        
+        // Get user records
+        Record.getRecords()
+    }
 }
