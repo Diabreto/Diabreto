@@ -13,6 +13,8 @@
 		96777BB91E575F01005544B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96777BB81E575F01005544B4 /* Assets.xcassets */; };
 		96777BBC1E575F01005544B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96777BBA1E575F01005544B4 /* LaunchScreen.storyboard */; };
 		B2F003E572F8FCDE0A23F51D /* Pods_Diabreto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9A1AC3BEC003E2E029E50B /* Pods_Diabreto.framework */; };
+		96777BC41E5785B6005544B4 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96777BC31E5785B6005544B4 /* RecordViewController.swift */; };
+		96777BC61E57DBAD005544B4 /* TabelaRicardoJorge-1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96777BC51E57DBAD005544B4 /* TabelaRicardoJorge-1.csv */; };
 		D26588171E577B3B00A20F04 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26588161E577B3B00A20F04 /* ProfileViewController.swift */; };
 		D26588191E577B6E00A20F04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26588181E577B6E00A20F04 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,8 @@
 		96777BBD1E575F01005544B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A97845119DD6AFED5C854A28 /* Pods-Diabreto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabreto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diabreto/Pods-Diabreto.debug.xcconfig"; sourceTree = "<group>"; };
 		CE60312E92EC127EAF8A77C0 /* Pods-Diabreto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabreto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diabreto/Pods-Diabreto.release.xcconfig"; sourceTree = "<group>"; };
+		96777BC31E5785B6005544B4 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		96777BC51E57DBAD005544B4 /* TabelaRicardoJorge-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TabelaRicardoJorge-1.csv"; sourceTree = "<group>"; };
 		D26588161E577B3B00A20F04 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D26588181E577B6E00A20F04 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +77,7 @@
 		96777BB01E575F01005544B4 /* Diabreto */ = {
 			isa = PBXGroup;
 			children = (
+				96777BC51E57DBAD005544B4 /* TabelaRicardoJorge-1.csv */,
 				96777BB11E575F01005544B4 /* AppDelegate.swift */,
 				96777BB31E575F01005544B4 /* MainViewController.swift */,
 				96777BB51E575F01005544B4 /* Main.storyboard */,
@@ -81,6 +86,7 @@
 				96777BBD1E575F01005544B4 /* Info.plist */,
 				D26588161E577B3B00A20F04 /* ProfileViewController.swift */,
 				D26588181E577B6E00A20F04 /* HomeViewController.swift */,
+				96777BC31E5785B6005544B4 /* RecordViewController.swift */,
 			);
 			path = Diabreto;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96777BC61E57DBAD005544B4 /* TabelaRicardoJorge-1.csv in Resources */,
 				96777BBC1E575F01005544B4 /* LaunchScreen.storyboard in Resources */,
 				96777BB91E575F01005544B4 /* Assets.xcassets in Resources */,
 				96777BB71E575F01005544B4 /* Main.storyboard in Resources */,
@@ -219,6 +226,7 @@
 			files = (
 				D26588171E577B3B00A20F04 /* ProfileViewController.swift in Sources */,
 				96777BB41E575F01005544B4 /* MainViewController.swift in Sources */,
+				96777BC41E5785B6005544B4 /* RecordViewController.swift in Sources */,
 				96777BB21E575F01005544B4 /* AppDelegate.swift in Sources */,
 				D26588191E577B6E00A20F04 /* HomeViewController.swift in Sources */,
 			);
