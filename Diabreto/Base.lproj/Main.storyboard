@@ -40,26 +40,216 @@
         <!--Profile-->
         <scene sceneID="Htu-6v-sov">
             <objects>
-                <viewController id="shE-rX-q8t" customClass="ProfileViewController" customModule="Diabreto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Profile" id="shE-rX-q8t" customClass="ProfileViewController" customModule="Diabreto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CPw-tP-Ngr"/>
                         <viewControllerLayoutGuide type="bottom" id="Obv-CR-Ost"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0jN-Lx-l37">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1115"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xt2-es-rR7">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Profile" id="XXH-KA-TtK">
+                                        <barButtonItem key="rightBarButtonItem" title="Save" id="ZUL-nV-nO2"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82s-Tu-otw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="1002"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mkf-c3-Rcd">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sK6-UG-mxB">
+                                                <rect key="frame" x="20" y="20" width="335" height="554"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2j-wT-fgb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ev-pt-IWe">
+                                                        <rect key="frame" x="0.0" y="30.5" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glycemia Unit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Je1-Yg-Gw1">
+                                                        <rect key="frame" x="0.0" y="70.5" width="335" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="euM-6O-dkw">
+                                                        <rect key="frame" x="0.0" y="101" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="glycemiaUnitFieldEditingDidBegin:" destination="shE-rX-q8t" eventType="editingDidBegin" id="SN2-DW-tgb"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carbohydrates Unit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjx-Z0-fD3">
+                                                        <rect key="frame" x="0.0" y="141" width="335" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i3c-ws-RNv">
+                                                        <rect key="frame" x="0.0" y="171.5" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="carbohydratesUnitFieldEditingDidBegin:" destination="shE-rX-q8t" eventType="editingDidBegin" id="g9S-b6-k5N"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Target Glycemia Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62T-xe-aA8">
+                                                        <rect key="frame" x="0.0" y="211.5" width="335" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="USQ-LW-0N6">
+                                                        <rect key="frame" x="0.0" y="242" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insulin Proportion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aon-oL-FpH">
+                                                        <rect key="frame" x="0.0" y="282" width="335" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xDs-nx-ZMJ">
+                                                        <rect key="frame" x="0.0" y="312.5" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correction Factor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vn-Jl-HNh">
+                                                        <rect key="frame" x="0.0" y="352.5" width="335" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Auc-Rx-uzq">
+                                                        <rect key="frame" x="0.0" y="383" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hyperglycemia Threshold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggb-eG-bin">
+                                                        <rect key="frame" x="0.0" y="423" width="335" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n12-x1-cAN">
+                                                        <rect key="frame" x="0.0" y="453.5" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hypoglycemia Threshold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kA8-wv-sKh">
+                                                        <rect key="frame" x="0.0" y="493.5" width="335" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UZW-OF-OWA">
+                                                        <rect key="frame" x="0.0" y="524" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="euM-6O-dkw" secondAttribute="trailing" id="1Xt-oG-WsS"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Je1-Yg-Gw1" secondAttribute="trailing" id="5NH-Ty-zTp"/>
+                                                    <constraint firstItem="n12-x1-cAN" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="6dx-Fs-Z7V"/>
+                                                    <constraint firstItem="Auc-Rx-uzq" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="7j3-Gb-uki"/>
+                                                    <constraint firstItem="3Ev-pt-IWe" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="9oJ-nk-0Cf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Rjx-Z0-fD3" secondAttribute="trailing" id="DeD-I9-8GY"/>
+                                                    <constraint firstItem="xDs-nx-ZMJ" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="ELD-ch-GNR"/>
+                                                    <constraint firstItem="kA8-wv-sKh" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="GQM-yj-LrI"/>
+                                                    <constraint firstItem="Je1-Yg-Gw1" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="IJa-PE-KVH"/>
+                                                    <constraint firstAttribute="trailing" secondItem="62T-xe-aA8" secondAttribute="trailing" id="Ihv-Q8-06a"/>
+                                                    <constraint firstAttribute="trailing" secondItem="USQ-LW-0N6" secondAttribute="trailing" id="Jrc-Zt-gio"/>
+                                                    <constraint firstItem="4vn-Jl-HNh" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="Lyp-Zf-zaS"/>
+                                                    <constraint firstItem="Rjx-Z0-fD3" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="M1D-cc-p97"/>
+                                                    <constraint firstItem="i3c-ws-RNv" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="OjW-Zz-6Vf"/>
+                                                    <constraint firstItem="z2j-wT-fgb" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="OlS-IA-eVX"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Auc-Rx-uzq" secondAttribute="trailing" id="QMm-LJ-2Gi"/>
+                                                    <constraint firstItem="ggb-eG-bin" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="Rrm-qC-0fk"/>
+                                                    <constraint firstItem="Aon-oL-FpH" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="S0t-Bx-TVe"/>
+                                                    <constraint firstItem="UZW-OF-OWA" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="W2Q-zR-Pwx"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ggb-eG-bin" secondAttribute="trailing" id="WoE-xs-vd7"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4vn-Jl-HNh" secondAttribute="trailing" id="ZEg-CR-C6H"/>
+                                                    <constraint firstItem="z2j-wT-fgb" firstAttribute="top" secondItem="sK6-UG-mxB" secondAttribute="top" id="cKb-Ix-COG"/>
+                                                    <constraint firstAttribute="trailing" secondItem="kA8-wv-sKh" secondAttribute="trailing" id="cL2-a3-3Om"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Aon-oL-FpH" secondAttribute="trailing" id="hFF-4K-E1m"/>
+                                                    <constraint firstAttribute="trailing" secondItem="UZW-OF-OWA" secondAttribute="trailing" id="hUH-S3-pjW"/>
+                                                    <constraint firstItem="euM-6O-dkw" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="ish-mB-LP2"/>
+                                                    <constraint firstAttribute="trailing" secondItem="xDs-nx-ZMJ" secondAttribute="trailing" id="jZA-4v-Iob"/>
+                                                    <constraint firstAttribute="trailing" secondItem="i3c-ws-RNv" secondAttribute="trailing" id="kxv-Qj-jka"/>
+                                                    <constraint firstAttribute="trailing" secondItem="n12-x1-cAN" secondAttribute="trailing" id="plC-9K-6Mz"/>
+                                                    <constraint firstAttribute="trailing" secondItem="z2j-wT-fgb" secondAttribute="trailing" id="q2M-z2-eqQ"/>
+                                                    <constraint firstAttribute="trailing" secondItem="3Ev-pt-IWe" secondAttribute="trailing" id="r03-cL-GtT"/>
+                                                    <constraint firstItem="USQ-LW-0N6" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="rbh-Ek-sbd"/>
+                                                    <constraint firstItem="62T-xe-aA8" firstAttribute="leading" secondItem="sK6-UG-mxB" secondAttribute="leading" id="seH-Wa-7dJ"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="sK6-UG-mxB" secondAttribute="trailing" constant="20" id="0EM-S4-tZz"/>
+                                            <constraint firstAttribute="height" constant="1000" id="8ib-7y-akA"/>
+                                            <constraint firstItem="sK6-UG-mxB" firstAttribute="top" secondItem="Mkf-c3-Rcd" secondAttribute="top" constant="20" id="ej4-Ue-Z7Z"/>
+                                            <constraint firstItem="sK6-UG-mxB" firstAttribute="leading" secondItem="Mkf-c3-Rcd" secondAttribute="leading" constant="20" id="jlc-ds-58X"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Mkf-c3-Rcd" secondAttribute="bottom" id="Fps-4n-8Ew"/>
+                                    <constraint firstItem="Mkf-c3-Rcd" firstAttribute="leading" secondItem="82s-Tu-otw" secondAttribute="leading" id="Qhd-tj-dIW"/>
+                                    <constraint firstItem="Mkf-c3-Rcd" firstAttribute="top" secondItem="82s-Tu-otw" secondAttribute="top" id="gTb-E7-pZX"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mkf-c3-Rcd" secondAttribute="trailing" id="kcv-c6-1tD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xt2-es-rR7" firstAttribute="top" secondItem="CPw-tP-Ngr" secondAttribute="bottom" id="Ajt-fu-Mzj"/>
+                            <constraint firstItem="xt2-es-rR7" firstAttribute="leading" secondItem="0jN-Lx-l37" secondAttribute="leading" id="GXL-wN-sNV"/>
+                            <constraint firstAttribute="trailing" secondItem="82s-Tu-otw" secondAttribute="trailing" id="Yf5-ab-OHT"/>
+                            <constraint firstItem="Mkf-c3-Rcd" firstAttribute="width" secondItem="0jN-Lx-l37" secondAttribute="width" id="dd9-GI-6YG"/>
+                            <constraint firstItem="82s-Tu-otw" firstAttribute="leading" secondItem="0jN-Lx-l37" secondAttribute="leading" id="jQF-gD-fgY"/>
+                            <constraint firstAttribute="trailing" secondItem="xt2-es-rR7" secondAttribute="trailing" id="lQQ-ca-47E"/>
+                            <constraint firstItem="Obv-CR-Ost" firstAttribute="top" secondItem="82s-Tu-otw" secondAttribute="bottom" id="n0G-pX-w8p"/>
+                            <constraint firstItem="82s-Tu-otw" firstAttribute="top" secondItem="xt2-es-rR7" secondAttribute="bottom" id="n6z-rA-xAx"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="wNQ-1g-D0E"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1115"/>
+                    <connections>
+                        <outlet property="glycemiaUnitField" destination="euM-6O-dkw" id="jgV-3M-8kl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RYk-sZ-h2v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="529" y="166"/>
+            <point key="canvasLocation" x="528.79999999999995" y="164.16791604197903"/>
         </scene>
         <!--Home-->
         <scene sceneID="FEx-99-hPC">
             <objects>
-                <viewController id="msj-XC-2hO" customClass="HomeViewController" customModule="Diabreto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home" id="msj-XC-2hO" customClass="HomeViewController" customModule="Diabreto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ajh-IA-rrZ"/>
                         <viewControllerLayoutGuide type="bottom" id="X7s-b3-4mr"/>
@@ -73,7 +263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPQ-R3-b8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="529" y="-489"/>
+            <point key="canvasLocation" x="529" y="-704"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="azv-NK-3JU">
