@@ -18,8 +18,16 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.navigationBar.topItem?.title = "Add"
+        self.navigationController?.navigationBar.backIndicatorImage = UIImage()
+        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage()
         loadFoods()
         configureSearchBar()
+    }
+    
+    func done() {
+        self.dismiss(animated: true, completion: nil)
     }
     
     func configureSearchBar() {

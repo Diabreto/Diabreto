@@ -31,6 +31,18 @@ class Record {
         self.notes = nil
     }
     
+    
+    init(dateTime: String, glycemia: Int, carbohydrates: Int, mealInsulin: Float, correctionInsulin: Float, activity: Float) {
+        self.id = -1
+        self.dateTime = dateTime
+        self.glycemia = glycemia
+        self.carbohydrates = carbohydrates
+        self.mealInsulin = mealInsulin
+        self.correctionInsulin = correctionInsulin
+        self.activity = activity
+        self.notes = nil
+    }
+    
     static func getRecords() {
         let headers: HTTPHeaders = [
             "X-User-Email": AppDelegate.database.currentUser.email,
