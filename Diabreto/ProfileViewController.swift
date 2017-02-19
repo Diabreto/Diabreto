@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class ProfileViewController: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     var currentSender: Any!
     
@@ -20,9 +20,9 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     @IBOutlet weak var glycemiaUnitField: UITextField!
     @IBOutlet weak var carbohydratesToUnitField: UITextField!
-    @IBOutlet weak var targetGlycemiaField: UITextField!
-    @IBOutlet weak var insulinToUnitField: UITextField!
     @IBOutlet weak var correctionFactorField: UITextField!
+    @IBOutlet weak var insulinToUnitField: UITextField!
+    @IBOutlet weak var targetGlycemiaField: UITextField!
     @IBOutlet weak var hyperglycemiaThresholdField: UITextField!
     @IBOutlet weak var hypoglycemiaThresholdField: UITextField!
     
@@ -43,7 +43,7 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         let params: Parameters = ["glycemia_unit": glycemiaUnitField.text!,
                                   "carbohydrates_to_unit": carbohydratesToUnitField.text!,
                                   "target_glycemia":targetGlycemiaField.text!,
-                                  "insulin_to_unit": insulinToUnitField.text!,
+                                  //"insulin_to_unit": insulinToUnitField.text!,
                                   "correction_factor": correctionFactorField.text!,
                                   "hyperglycemia_threshold": hyperglycemiaThresholdField.text!,
                                   "hypoglycemia_threshold": hypoglycemiaThresholdField.text!]
@@ -101,9 +101,9 @@ class ProfileViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         
         self.glycemiaUnitField.text = currentUser.glycemiaUnit
         self.carbohydratesToUnitField.text = String(currentUser.carbohydratesToUnit)
-        self.targetGlycemiaField.text = String(currentUser.targetGlycemia)
-        self.insulinToUnitField.text = String(currentUser.insulinToUnit)
         self.correctionFactorField.text = String(currentUser.correctionFactor)
+        //self.insulinToUnitField.text = String(currentUser.insulinToUnit)
+        self.targetGlycemiaField.text = String(currentUser.targetGlycemia)
         self.hyperglycemiaThresholdField.text = String(currentUser.hyperGlycemiaThreshold)
         self.hypoglycemiaThresholdField.text = String(currentUser.hypoGlycemiaThreshold)
     }
