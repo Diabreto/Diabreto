@@ -9,9 +9,11 @@
 class Database {
     var currentUser: User
     var records: [Record]
+    var prediction: Float
     
     init() {
         self.currentUser = User()
         self.records = []
+        self.prediction = -1
     }
 }
