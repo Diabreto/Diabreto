@@ -2,7 +2,7 @@ import UIKit
 import SwiftyJSON
 
 protocol ChooseCarbsDelegate {
-    func selectCells(cell: [Food])
+    func selectCells(foodList: [Food])
 }
 
 class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISearchResultsUpdating {
@@ -86,7 +86,7 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
         }
         
         if (delegate != nil)  {
-            delegate?.selectCells(cell: selectedFoods)
+            delegate?.selectCells(foodList: selectedFoods)
         }
         
         tableViewVal?.accessoryType = .checkmark
@@ -98,7 +98,7 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
         
         
         if (delegate != nil)  {
-            delegate?.selectCells(cell: selectedFoods)
+            delegate?.selectCells(foodList: selectedFoods)
         }
         
         tableViewVal?.accessoryType = .none

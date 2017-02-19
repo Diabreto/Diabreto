@@ -1,10 +1,11 @@
 import UIKit
 
-class RecordViewController: UIViewController, ChooseCarbsDelegate {
+class RecordViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, ChooseCarbsDelegate {
     @IBOutlet weak var dateTextField: UITextField!
     @IBOutlet weak var notesTextField: UITextView!
+    @IBOutlet weak var tableView: UITableView!
     
-    var selectedFoovar = [Food]()
+    var selectedFood = [Food]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -14,9 +15,7 @@ class RecordViewController: UIViewController, ChooseCarbsDelegate {
     }
     
     @IBAction func activityOnChange(_ sender: UITextField) {
-        if (!(sender.text == "")) {
-            sender.text = sender.text! + "%"
-        }
+        if sender.text != "" { sender.text = sender.text! + "%" }
     }
     
     @IBAction func dateEditing(_ sender: UITextField) {
@@ -37,13 +36,31 @@ class RecordViewController: UIViewController, ChooseCarbsDelegate {
         )
     }
     
-    func selectCells(cell: [Food]) {
-        print(cell.count)
+    func selectCells(foodList: [Food]) {
+        self.selectedFood = foodList
+        self.tableView.reloadData()
     }
     
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return selectedFood.count
+    }
+    
+
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "FoodCell", for: indexPath) as! RecordTableViewCell
+        
+        //cell.textLabel?.text = self.selectedFood[indexPath.row].name
+
+        cell.Food.text = self.selectedFood[indexPath.row].name
+        
+        return cell
+    }
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destViewController = segue.destination as! CarbsTableViewController
         destViewController.delegate = self
+        
+        self.tableView.reloadData()
     }
     
     func datePickerValueChanged(sender:UIDatePicker) { dateTextField.text = dateFormatter(date: sender.date) }

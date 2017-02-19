@@ -14,6 +14,8 @@
 		96777BB91E575F01005544B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96777BB81E575F01005544B4 /* Assets.xcassets */; };
 		96777BBC1E575F01005544B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96777BBA1E575F01005544B4 /* LaunchScreen.storyboard */; };
 		96777BC41E5785B6005544B4 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96777BC31E5785B6005544B4 /* RecordViewController.swift */; };
+		96777BC61E57DBAD005544B4 /* CarbsTable.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96777BC51E57DBAD005544B4 /* CarbsTable.csv */; };
+		96A772361E59035300F38044 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A772351E59035300F38044 /* RecordTableViewCell.swift */; };
 		96BA3ACF1E58555300111DF0 /* CarbsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BA3ACE1E58555300111DF0 /* CarbsTableViewController.swift */; };
 		B2F003E572F8FCDE0A23F51D /* Pods_Diabreto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9A1AC3BEC003E2E029E50B /* Pods_Diabreto.framework */; };
 		D26588171E577B3B00A20F04 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26588161E577B3B00A20F04 /* ProfileViewController.swift */; };
@@ -36,6 +38,8 @@
 		96777BBB1E575F01005544B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96777BBD1E575F01005544B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96777BC31E5785B6005544B4 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		96777BC51E57DBAD005544B4 /* CarbsTable.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CarbsTable.csv; path = Diabreto/CarbsTable.csv; sourceTree = "<group>"; };
+		96A772351E59035300F38044 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 		96BA3ACE1E58555300111DF0 /* CarbsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbsTableViewController.swift; sourceTree = "<group>"; };
 		A97845119DD6AFED5C854A28 /* Pods-Diabreto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabreto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diabreto/Pods-Diabreto.debug.xcconfig"; sourceTree = "<group>"; };
 		CE60312E92EC127EAF8A77C0 /* Pods-Diabreto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabreto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diabreto/Pods-Diabreto.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 				9635B4001E57FE9700FC89D0 /* CarbsTable.json */,
 				D2B4DA6A1E57D4C8005378A9 /* Models */,
 				96777BB11E575F01005544B4 /* AppDelegate.swift */,
+				96A772351E59035300F38044 /* RecordTableViewCell.swift */,
 				96777BB31E575F01005544B4 /* MainViewController.swift */,
 				96BA3ACE1E58555300111DF0 /* CarbsTableViewController.swift */,
 				964FDB251E57EA0D0049D329 /* Food.swift */,
@@ -253,6 +258,7 @@
 			files = (
 				964FDB261E57EA0D0049D329 /* Food.swift in Sources */,
 				96BA3ACF1E58555300111DF0 /* CarbsTableViewController.swift in Sources */,
+				96A772361E59035300F38044 /* RecordTableViewCell.swift in Sources */,
 				D2B4DA6E1E57D6CF005378A9 /* Database.swift in Sources */,
 				D26588171E577B3B00A20F04 /* ProfileViewController.swift in Sources */,
 				F4D1B6E81E58510C00B129CF /* HomeTableViewCell.swift in Sources */,
