@@ -56,14 +56,16 @@ class Record {
                      encoding: JSONEncoding.default,
                      headers: headers)
             .responseJSON()
-        
+
         let jsonResponse = JSON(response.result.value!)
         if (response.result.isFailure || !jsonResponse["errors"].isEmpty) {
             print("Error updating user")
             return
         }
+        
+        AppDelegate.database.prediction = jsonResponse["data"]["prediction"].float!
                 
-        for r in jsonResponse["data"].arrayValue {
+        for r in jsonResponse["data"]["records"].arrayValue {
             let record = Record()
             record.id = r["id"].int
             record.dateTime = r["date"].string

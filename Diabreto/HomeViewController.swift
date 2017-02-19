@@ -25,7 +25,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     private func setupGraph() {
@@ -87,7 +86,9 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let record = AppDelegate.database.records[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HomeTableViewCell
 
-        cell.recordImageView.image = UIImage(named: "meal")
+        cell.recordImageView.layer.cornerRadius = 37
+        cell.recordImageView.layer.masksToBounds = true
+        cell.recordImageView.image = UIImage(named: "meal\((indexPath.row % 4) + 1)")
         cell.glycemiaLabel.text = String(record.glycemia)
         cell.carbohydratesLabel.text = String(record.carbohydrates)
         cell.mealInsulinLabel.text = String(record.mealInsulin)
