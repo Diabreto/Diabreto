@@ -22,22 +22,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAl-Mh-uxz">
-                                <rect key="frame" x="168" y="318" width="38" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAl-Mh-uxz">
+                                <rect key="frame" x="166" y="494" width="43" height="30"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="loginButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Hv-Wj-JHE"/>
                                     <segue destination="GlS-PL-6VG" kind="show" id="FYg-ZZ-a9y"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="TVQ-n7-o7D">
+                                <rect key="frame" x="76" y="95" width="223" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="FEy-a0-byX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diabeto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aup-Ah-eCb">
+                                <rect key="frame" x="136" y="345" width="93" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ifZ-JJ-bgd">
+                                <rect key="frame" x="86" y="394" width="203" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PUk-cb-wDf">
+                                <rect key="frame" x="86" y="444" width="203" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TVQ-n7-o7D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="5EI-j9-hcq"/>
+                            <constraint firstItem="lAl-Mh-uxz" firstAttribute="top" secondItem="PUk-cb-wDf" secondAttribute="bottom" constant="20" id="7Q8-ih-dx0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TVQ-n7-o7D" secondAttribute="trailing" constant="60" id="7qe-cZ-kVL"/>
+                            <constraint firstItem="Aup-Ah-eCb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="120" id="MSc-pB-vGX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PUk-cb-wDf" secondAttribute="trailing" constant="70" id="RTt-1e-P1Y"/>
+                            <constraint firstItem="TVQ-n7-o7D" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="SVN-ae-aU7"/>
+                            <constraint firstItem="PUk-cb-wDf" firstAttribute="top" secondItem="ifZ-JJ-bgd" secondAttribute="bottom" constant="20" id="Tee-lS-gq3"/>
+                            <constraint firstItem="lAl-Mh-uxz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="150" id="Yf5-wt-HOF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lAl-Mh-uxz" secondAttribute="trailing" constant="150" id="ZFo-w7-e3e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Aup-Ah-eCb" secondAttribute="trailing" constant="130" id="gx4-hw-6Hb"/>
+                            <constraint firstItem="PUk-cb-wDf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="hPb-DC-UZX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ifZ-JJ-bgd" secondAttribute="trailing" constant="70" id="kYc-RS-UGb"/>
+                            <constraint firstItem="ifZ-JJ-bgd" firstAttribute="top" secondItem="Aup-Ah-eCb" secondAttribute="bottom" constant="20" id="lEy-nq-Ig9"/>
+                            <constraint firstItem="Aup-Ah-eCb" firstAttribute="top" secondItem="TVQ-n7-o7D" secondAttribute="bottom" constant="50" id="neg-L1-Upo"/>
+                            <constraint firstItem="ifZ-JJ-bgd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="zhL-hw-HP0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1290" y="-161"/>
+            <point key="canvasLocation" x="-1290.4000000000001" y="-161.46926536731635"/>
         </scene>
         <!--Record-->
         <scene sceneID="Xv6-Qd-ZDu">
@@ -445,8 +485,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ry2-It-8Sq">
                                 <rect key="frame" x="0.0" y="220" width="375" height="30"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Aviso: tendencia para aumentar para 180" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjw-9W-fsC">
-                                        <rect key="frame" x="31" y="5" width="312" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aviso: tendencia para aumentar para 180" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjw-9W-fsC">
+                                        <rect key="frame" x="30" y="2" width="315" height="26"/>
                                         <color key="backgroundColor" red="0.90588235289999997" green="0.29803921570000003" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -470,11 +510,11 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aco-rx-1mu" id="90T-6k-STk">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3AJ-Jq-XYN">
-                                                    <rect key="frame" x="13" y="13" width="75" height="73"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3AJ-Jq-XYN">
+                                                    <rect key="frame" x="13" y="13" width="75" height="73.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="75" id="sgt-74-0KU"/>
                                                     </constraints>
@@ -624,6 +664,7 @@
     </scenes>
     <resources>
         <image name="home" width="30" height="30"/>
+        <image name="logo" width="1024" height="1024"/>
         <image name="plus" width="30" height="30"/>
         <image name="user" width="30" height="30"/>
     </resources>
