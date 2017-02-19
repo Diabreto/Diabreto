@@ -14,7 +14,7 @@ class Record {
     var id: Int!
     var dateTime: String!
     var glycemia: Int!
-    var carbohydrates: Int!
+    var carbohydrates: Float!
     var mealInsulin: Float!
     var correctionInsulin: Float!
     var activity: Float!
@@ -32,7 +32,7 @@ class Record {
     }
     
     
-    init(dateTime: String, glycemia: Int, carbohydrates: Int, mealInsulin: Float, correctionInsulin: Float, activity: Float) {
+    init(dateTime: String, glycemia: Int, carbohydrates: Float, mealInsulin: Float, correctionInsulin: Float, activity: Float) {
         self.id = -1
         self.dateTime = dateTime
         self.glycemia = glycemia
@@ -70,7 +70,7 @@ class Record {
             record.id = r["id"].int
             record.dateTime = r["date"].string
             record.glycemia = r["glycemia"].int
-            record.carbohydrates = r["carbohydrates"].int
+            record.carbohydrates = r["carbohydrates"].float
             record.mealInsulin = r["meal_insulin"].float
             record.correctionInsulin = r["correction_insulin"].float
             record.activity = r["activity"].float

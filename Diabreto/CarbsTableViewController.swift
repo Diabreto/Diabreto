@@ -31,12 +31,12 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
     }
     
     func configureSearchBar() {
-        searchController = UISearchController(searchResultsController: nil)
-        searchController.searchResultsUpdater = self
-        searchController.searchBar.showsCancelButton = false
-        searchController.dimsBackgroundDuringPresentation = false
+        self.searchController = UISearchController(searchResultsController: nil)
+        self.searchController.searchResultsUpdater = self
+        self.searchController.searchBar.showsCancelButton = false
+        self.searchController.dimsBackgroundDuringPresentation = false
         
-        self.tableView.tableHeaderView = searchController.searchBar
+        self.tableView.tableHeaderView = self.searchController.searchBar
         self.tableView.allowsMultipleSelection = true
         self.definesPresentationContext = true
     }
@@ -65,15 +65,15 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
         let name_result:String!
         let carbs_result:String!
         
-        if (searchController.isActive && searchController.searchBar.text != "") {
-            name_result = filteredFoods[indexPath.row].name
-            carbs_result = "\(filteredFoods[indexPath.row].carbs)"
+        if (self.searchController.isActive && self.searchController.searchBar.text != "") {
+            name_result = self.filteredFoods[indexPath.row].name
+            carbs_result = "\(self.filteredFoods[indexPath.row].carbs)"
         } else {
-            name_result = foods[indexPath.row].name
-            carbs_result = "\(foods[indexPath.row].carbs)"
+            name_result = self.foods[indexPath.row].name
+            carbs_result = "\(self.foods[indexPath.row].carbs)"
         }
         
-        if ((selectedFoods.filter({$0.name == name_result}).first) != nil) {
+        if ((self.selectedFoods.filter({$0.name == name_result}).first) != nil) {
             cell.accessoryType = .checkmark
         } else {
             cell.accessoryType = .none
@@ -89,12 +89,12 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let tableViewVal = self.tableView.cellForRow(at: indexPath)
         
-        if let found = foods.filter({$0.name == tableViewVal?.textLabel?.text}).first {
+        if let found = self.foods.filter({$0.name == tableViewVal?.textLabel?.text}).first {
             self.selectedFoods.append(found)
         }
         
-        if (delegate != nil)  {
-            delegate?.selectCells(foodList: selectedFoods)
+        if (self.delegate != nil)  {
+            self.delegate?.selectCells(foodList: self.selectedFoods)
         }
         
         tableViewVal?.accessoryType = .checkmark
@@ -105,8 +105,8 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
         self.selectedFoods = self.selectedFoods.filter(){$0.name != tableViewVal?.textLabel?.text}
         
         
-        if (delegate != nil)  {
-            delegate?.selectCells(foodList: selectedFoods)
+        if (self.delegate != nil)  {
+            self.delegate?.selectCells(foodList: self.selectedFoods)
         }
         
         tableViewVal?.accessoryType = .none
@@ -118,7 +118,7 @@ class CarbsTableViewController: UITableViewController, UISearchBarDelegate, UISe
         let json = JSON(data: content!)
         
         for (_, value): (String, JSON) in json {
-            foods.append(
+            self.foods.append(
                 Food(
                     name: format(value: value["name"].stringValue),
                     carbs: value["carbs"].floatValue

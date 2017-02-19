@@ -20,7 +20,7 @@ class RecordViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(RecordViewController.dismissKeyboard))
         self.navigationController?.navigationBar.topItem?.title = "New Record"
 
@@ -31,7 +31,7 @@ class RecordViewController: UIViewController, UITableViewDataSource, UITableView
 
         view.addGestureRecognizer(tap)
         configureTextBoxes()
-        dateTextField.text = dateFormatter(date: Date())
+        self.dateTextField.text = dateFormatter(date: Date())
     }
     
     func dismissKeyboard() {
@@ -59,16 +59,16 @@ class RecordViewController: UIViewController, UITableViewDataSource, UITableView
     }
 
     @IBAction func carbsOnChange(_ sender: UITextField) {
-        let value = Float(sender.text!)! / currentUser.insulinToUnit
+        let value = Float(sender.text!)! / self.currentUser.insulinToUnit
         self.mealInsulinTextField.text = String(value)
         
         updateTotalFieldVal()
     }
     
     @IBAction func glucoseOnChange(_ sender: UITextField) {
-        let correction = (Float(sender.text!)! - Float(currentUser.targetGlycemia)) / Float(currentUser.correctionFactor)
+        let correction = (Float(sender.text!)! - Float(self.currentUser.targetGlycemia)) / Float(self.currentUser.correctionFactor)
         
-        correctionTextField.text = String.localizedStringWithFormat("%.2f", correction)
+        self.correctionTextField.text = String.localizedStringWithFormat("%.2f", correction)
         
         updateTotalFieldVal()
     }
@@ -80,10 +80,10 @@ class RecordViewController: UIViewController, UITableViewDataSource, UITableView
     @IBAction func activityOnChange(_ sender: UISlider) {
         self.sliderPercentageField.text = String(Int(sender.value))
         
-        if !(totalTextView.text?.isEmpty)! && sender.value != 0.0 {
+        if !(self.totalTextView.text?.isEmpty)! && sender.value != 0.0 {
             let variance = total() * (sender.value / 100)
 
-            totalTextView.text = String.localizedStringWithFormat("%.2f", total() + variance)
+            self.totalTextView.text = String.localizedStringWithFormat("%.2f", total() + variance)
         }
     }
     
@@ -113,36 +113,36 @@ class RecordViewController: UIViewController, UITableViewDataSource, UITableView
             carbs += (food.carbs * Float(food.dosage))/100.0
         }
 
-        carbsTextField!.text! = String(carbs)
-        mealInsulinTextField.text = String(carbs / currentUser.insulinToUnit)
+        self.carbsTextField.text = String(carbs)
+        self.mealInsulinTextField.text = String(carbs / self.currentUser.insulinToUnit)
         updateTotalFieldVal()
         self.tableView.reloadData()
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return selectedFood.count
+        return self.selectedFood.count
     }
     
     @IBAction func createRecord(_ sender: Any) {
         var glycemia = -1
-        var carbohydrates = -1
+        var carbohydrates = Float(-1.0)
         var mealInsulin = Float(-1.0)
         var correctionInsulin = Float(-1.0)
         
-        if (glucoseTextField.text != nil) {
-            glycemia = Int(glucoseTextField.text!)!
+        if (self.glucoseTextField.text != nil) {
+            glycemia = Int(self.glucoseTextField.text!)!
         }
         
-        if (carbsTextField.text != nil) {
-            carbohydrates = Int(carbsTextField.text!)!
+        if (self.carbsTextField.text != nil) {
+            carbohydrates = Float(self.carbsTextField.text!)!
         }
         
-        if (mealInsulinTextField.text != nil) {
-            mealInsulin = Float(mealInsulinTextField.text!)!
+        if (self.mealInsulinTextField.text != nil) {
+            mealInsulin = Float(self.mealInsulinTextField.text!)!
         }
         
-        if (correctionTextField.text != nil) {
-            correctionInsulin = Float(correctionInsulin)
+        if (self.correctionTextField.text != nil) {
+            correctionInsulin = Float(self.correctionTextField.text!)!
         }
         
         let record = Record(
@@ -155,9 +155,7 @@ class RecordViewController: UIViewController, UITableViewDataSource, UITableView
             )
         
         AppDelegate.database.records.append(record)
-        let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        self.navigationController?.popViewController(animated: true)
-        //self.navigationController?.pushViewController(homeViewController, animated: true)
+        tabBarController?.selectedIndex = 0
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -179,10 +177,10 @@ class RecordViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     @IBAction func onCarbsValueChanged(_ sender: UITextField) {
-        self.mealInsulinTextField.text = String(Float(sender.text!)!/currentUser.insulinToUnit)
+        self.mealInsulinTextField.text = String(Float(sender.text!)!/self.currentUser.insulinToUnit)
     }
     
-    func datePickerValueChanged(sender:UIDatePicker) { dateTextField.text = dateFormatter(date: sender.date) }
+    func datePickerValueChanged(sender:UIDatePicker) { self.dateTextField.text = dateFormatter(date: sender.date) }
     
     private func dateFormatter(date:Date) -> String {
         let formatter = DateFormatter()
