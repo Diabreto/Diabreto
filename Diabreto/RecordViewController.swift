@@ -156,7 +156,8 @@ class RecordViewController: UIViewController, UITableViewDataSource, UITableView
         
         AppDelegate.database.records.append(record)
         let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        self.navigationController?.pushViewController(homeViewController, animated: true)
+        self.navigationController?.popViewController(animated: true)
+        //self.navigationController?.pushViewController(homeViewController, animated: true)
     }
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

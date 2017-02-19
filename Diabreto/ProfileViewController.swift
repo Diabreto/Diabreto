@@ -28,11 +28,16 @@ class ProfileViewController: UITableViewController, UIPickerViewDelegate, UIPick
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(RecordViewController.dismissKeyboard))
         self.picker = buildUIPickerView()
         self.pickerToolBar = buildPickerToolBar()
         
+        view.addGestureRecognizer(tap)
         loadValuesToUI()
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     override func didReceiveMemoryWarning() {
